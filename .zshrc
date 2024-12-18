@@ -5,8 +5,33 @@
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 alias nvi='nvim'
 
-dadd() {
-  git --git-dir=$HOME/.dotfiles --work-tree=$HOME add "$*"
+#dam() {
+#  git --git-dir=$HOME/.dotfiles --work-tree=$HOME add "$*" 
+#  git --git-dir=$HOME/.dotfiles --work-tree=$HOME commit -m  "$*"
+#}
+dam() {
+  local gitdir=$HOME/.dotfiles
+  local worktree=$HOME
+
+  # 检查是否提供参数
+  if [[ -z "$*" ]]; then
+    echo "Usage: dam <files...>"
+    return 1
+  fi
+
+  # 添加文件
+  git --git-dir="$gitdir" --work-tree="$worktree" add "$@" || {
+    echo "Error: Failed to add files."
+    return 1
+  }
+
+  # 提交更改
+  git --git-dir="$gitdir" --work-tree="$worktree" commit -m "Updated files: $*" || {
+    echo "Error: Failed to commit changes."
+    return 1
+  }
+
+  echo "Successfully added and committed: $*"
 }
 
 #zsh的omz配置
