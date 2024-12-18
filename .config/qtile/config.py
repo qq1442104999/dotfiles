@@ -464,8 +464,8 @@ widgets_list = init_widgets_list()
 def init_screens():
     return [
             Screen(
-                wallpaper=f"~/workspace/wallpaper/{wallpaper}",
-                wallpaper_mode="fill",
+                #wallpaper=f"~/workspace/wallpaper/{wallpaper}",
+                #wallpaper_mode="fill",
                 top=bar.Bar(widgets_list,30,opacity=0.9,background="00000000")
                 #top=bar.Bar(widgets_list,30,opacity=0.9,background=colors[12])
             )
