@@ -3,11 +3,17 @@
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
-alias vi='nvim'
+alias nvi='nvim'
 
 dam() {
-  git --git-dir=$HOME/.dotfiles --work-tree=$HOME add "$*"
+  git --git-dir=$HOME/.dotfiles --work-tree=$HOME add "$*" &&
+  git --git-dir=$HOME/.dotfiles --work-tree=$HOME commit -m  "$*"
 }
+
+#zsh的omz配置
+source ~/.config/omz/omz.zsh  
+export _OMZ_APPLY_PREEXEC_HOOK=true
+export _OMZ_APPLY_CHPWD_HOOK=true
 
 export EDITOR=nvim
 export VISUAL=nvim
@@ -19,11 +25,9 @@ export XMODIFIERS=@im=fcitx
 
 #QT主题
 export QT_QPA_PLATFORMTHEME=qt6ct
+export QT_QPA_PLATFORMTHEME=qt5ct
+# export XDG_CURRENT_DESKTOP=KDE
 
-#zsh的omz配置
-source ~/workspace/git/omz/omz.zsh  
-export _OMZ_APPLY_PREEXEC_HOOK=true
-export _OMZ_APPLY_CHPWD_HOOK=true
 
 #登陆自启动X
 [ -z $DISPLAY ] && [ $(tty) = "/dev/tty1" ] && startx
