@@ -1,2 +1,2 @@
-export row=20
-export col=18
+export row=0
+export col=16
