@@ -5,9 +5,8 @@
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 alias nvi='nvim'
 
-dam() {
-  git --git-dir=$HOME/.dotfiles --work-tree=$HOME add "$*" &&
-  git --git-dir=$HOME/.dotfiles --work-tree=$HOME commit -m  "$*"
+dadd() {
+  git --git-dir=$HOME/.dotfiles --work-tree=$HOME add "$*"
 }
 
 #zsh的omz配置
