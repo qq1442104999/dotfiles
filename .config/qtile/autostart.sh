@@ -10,9 +10,9 @@ fcitx5 &                   #输入法自启动
 blueman-applet &           #蓝牙
 numlockx &                 #在启动时激活 numlock
 xset r rate 200 20 &       #设置键盘延迟和速率
-dunst -conf ~/.config/qtile/config/dunst.conf & #开启通知server
+dunst -conf ~/.config/dunst.conf & #开启通知server
 #/opt/clash-for-windows-bin/cfw & #clash_for_windows
    #xrandr --dpi 144 &
-picom --config ~/.config/qtile/config/picom.conf  >> /dev/null 2>&1 & #picom
+picom --config ~/.config/picom.conf  >> /dev/null 2>&1 & #picom
 #sleep 1
 #feh --bg-fill --randomize ~/workspace/wallpaper/* &  #壁纸
