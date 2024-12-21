@@ -21,6 +21,10 @@ export QT_QPA_PLATFORMTHEME=qt6ct
 export QT_QPA_PLATFORMTHEME=qt5ct
 # export XDG_CURRENT_DESKTOP=KDE
 
+#GTK主题
+export GTK_THEME=Breeze-Dark
+export DESKTOP_SESSION=gnome
+# export XDG_CURRENT_DESKTOP=GNOME
 
 #登陆自启动X
 [ -z $DISPLAY ] && [ $(tty) = "/dev/tty1" ] && startx
