@@ -20,6 +20,10 @@ def autostart():
     home = os.path.expanduser("~/.config/qtile/autostart.sh")
     subprocess.Popen([home])
 
+@hook.subscribe.startup
+def _():
+    mybar.window.window.set_property("QTILE_BAR", 1, "CARDINAL", 32)
+
 #@hook.subscribe.startup_once
 #def autostart1():
 #    subprocess.call([os.path.expanduser('~/.config/qtile/scripts/auto-connect-bluetooth.sh')])
@@ -278,7 +282,7 @@ def init_colors():
             ["#88C0D0", "#88C0D0"], # color 10 | 水色
             ["#81A1C1", "#81A1C1"], # color 11 | 蓝色
             ["#5E81AC", "#5E81AC"], # color 12 | 海军
-            ["#363636"], # color 13
+            ["#31313D"], # color 13
            ]
 colors = init_colors()
 
@@ -293,8 +297,8 @@ wallpaper = '11.jpg'
 my_font = "JetBrainsMono Nerd Font Mono"
 my_fontsize = 18
 clock_fontsize = 20
-background = colors[5]
-foreground = colors[1]
+background = colors[13]
+foreground = colors[2]
 
 def init_widgets_list(secondar=False):
     def init_decor(width=0):
@@ -327,7 +331,7 @@ def init_widgets_list(secondar=False):
             font = my_font,
             fontsize = my_fontsize,
             disable_drag = True,
-            hide_unused = True,
+            hide_unused = False,
             **decor
         ),
         widget.Spacer(length=5),
@@ -338,7 +342,7 @@ def init_widgets_list(secondar=False):
             unfocused_border = colors[2],
             foreground = colors[1],
             font = my_font,
-            fontsize = my_fontsize,
+            fontsize = 15,
             highlight_method = "block",
             icon_size = 15,
             margin_y = 6,
@@ -352,7 +356,7 @@ def init_widgets_list(secondar=False):
             #theme_mode = "preferred",
             **decor,
         ),
-        widget.Spacer(length=5),
+        widget.Spacer(length=200),
         #网速显示
         widget.Net(
             background = background,
@@ -363,19 +367,19 @@ def init_widgets_list(secondar=False):
             #format=" {up:4.1f}{up_suffix:<2} {down:4.1f}{down_suffix:<2}",
             format = '{down:.0f}{down_suffix} ↓↑ {up:.0f}{up_suffix}',
             #format = '{down} ↓↑ {up}',
-            #prefix="M",
+            prefix="M",
             **decor
         ),
         widget.Spacer(length=10),
-        widget.WiFiIcon(
-            background = background,
-            font = my_font,
-            expanded_timeout = 2,
-            padding_x = 0,
-            padding_y = 8,
-            wifi_arc = 75,
-            **decor,
-        ),
+        #widget.WiFiIcon(
+        #    background = background,
+        #    font = my_font,
+        #    expanded_timeout = 2,
+        #    padding_x = 0,
+        #    padding_y = 8,
+        #    wifi_arc = 75,
+        #    **decor,
+        #),
         #widget.Bluetooth(
         #    background = background,
         #    default_text = '',
@@ -395,12 +399,12 @@ def init_widgets_list(secondar=False):
         #    #**systray_decor,
         #    **decor,
         #    ),
-        widget.StatusNotifier(
-            background = background,
-            icon_size = 16,
-            padding = 3,
-            **decor,
-        ),
+        #widget.StatusNotifier(
+        #    background = background,
+        #    icon_size = 16,
+        #    padding = 3,
+        #    **decor,
+        #),
         widget.Spacer(length=5),
         #cpu显示
         widget.CPU(
@@ -460,14 +464,14 @@ def init_widgets_list(secondar=False):
     ]
     return widgets_list
 widgets_list = init_widgets_list()
-
+mybar = bar.Bar(widgets_list,30,opacity=0.9,background="00000000")
 def init_screens():
     return [
             Screen(
                 #wallpaper=f"~/workspace/wallpaper/{wallpaper}",
                 #wallpaper_mode="fill",
-                top=bar.Bar(widgets_list,30,opacity=0.9,background="00000000")
-                #top=bar.Bar(widgets_list,30,opacity=0.9,background=colors[12])
+                #top=bar.Bar(widgets_list,30,opacity=0.9,background="00000000")
+                top=mybar
             )
     ]
 
