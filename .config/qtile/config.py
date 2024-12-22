@@ -129,7 +129,7 @@ keys = [
     Key([mod], "q", lazy.window.kill()),
     Key([mod, "control"], "r", lazy.reload_config()),
     Key([mod, "control"], "q", lazy.shutdown()),
-    Key([mod], "d", lazy.spawn("rofi -show run")),
+    Key([mod], "d", lazy.spawn("rofi -show run -theme ~/.config/rofi/themes/mine.rasi")),
     #浮动窗口
     Key(
         [mod], "t",
