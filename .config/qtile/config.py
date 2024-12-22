@@ -183,7 +183,38 @@ keys = [
 #    )
 
 
-groups = [Group(i) for i in "123456789"]
+groups = [
+        Group(
+            '1',
+        ),
+        Group(
+            '2',
+        ),
+        Group(
+            '3',
+        ),
+        Group(
+            '4',
+        ),
+        Group(
+            '5',
+        ),
+        Group(
+            '6',
+        ),
+        Group(
+            '7',
+        ),
+        Group(
+            '8',
+        ),
+        Group(
+            '9',
+            matches=[
+                Match(wm_class="clash-verge"),
+            ],
+        ),
+]
 
 for i in groups:
     keys.extend(
@@ -209,19 +240,13 @@ for i in groups:
         ]
     )
 
-groups.append(
-    ScratchPad("scratchpad",[
-        DropDown("term", terminal, 
-                 width=0.7, height=0.7, x=0.15, y=0.15, opacity=0.9)
-        ]
-    )
-)
+groups.append(ScratchPad("scratchpad",[
+    DropDown("term", terminal, width=0.7, height=0.7, x=0.15, y=0.15, opacity=0.9)
+]))
 
 keys.extend([
-    Key([mod], "z",
-        lazy.group["scratchpad"].dropdown_toggle("term"))
-    ]
-)
+    Key([mod], "z",lazy.group["scratchpad"].dropdown_toggle("term"))
+])
 #---------------------------------------------------------------
 def init_layout_theme():
     return {
@@ -264,6 +289,7 @@ floating_layout = layout.Floating(
         Match(wm_class="pavucontrol"),  # 音频设置
         Match(wm_class="steamwebhelper"),  # steam
         Match(wm_class="steam"),  # steam
+        Match(wm_class="clash-verge"),  #clash
     ]
 )
 #---------------------------------------------------------------
