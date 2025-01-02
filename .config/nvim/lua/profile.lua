@@ -57,8 +57,7 @@ G.opt.termguicolors = true
 --     let &t_vb = ''
 --     let &t_ut = ''
 --]])
-G.cmd([[colorscheme catppuccin
-]])
+G.cmd([[colorscheme tokyonight]])
 
 function MagicFoldText()
     local spacetext = ("        "):sub(0, G.opt.shiftwidth:get())
