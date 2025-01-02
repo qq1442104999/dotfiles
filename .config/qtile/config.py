@@ -24,15 +24,6 @@ def autostart():
 def _():
     mybar.window.window.set_property("QTILE_BAR", 1, "CARDINAL", 32)
 
-#@hook.subscribe.startup_once
-#def autostart1():
-#    subprocess.call([os.path.expanduser('~/.config/qtile/scripts/auto-connect-bluetooth.sh')])
-
-#@hook.subscribe.layout_change
-#def citx():
-#    lazy.spawn("st")
-#    lazy.window.toggle_minimize()
-
 @lazy.function
 def float_to_front(qtile):
    # logging.info("bring floating windows to front")
@@ -130,22 +121,27 @@ keys = [
     Key([mod, "control"], "r", lazy.reload_config()),
     Key([mod, "control"], "q", lazy.shutdown()),
     Key([mod], "d", lazy.spawn("rofi -show run -theme ~/.config/rofi/themes/mine.rasi")),
+
     #浮动窗口
     Key(
         [mod], "t",
         lazy.window.toggle_floating(), 
         lazy.window.center(),
     ),                                          
+   
     #全屏窗口
     Key([mod], "f", lazy.window.toggle_fullscreen()),
+    
     #最小化窗口
     Key([mod], "x", 
         lazy.window.toggle_minimize(), 
         lazy.layout.next(),
         ),
+    
     #最小化窗口恢复
     Key([mod, "shift"], "x", minimize),
     #Key([mod, "shift"], "f", lazy.group.setlayout("max")),
+    
     #浮动窗口置顶
     Key([mod], "a", float_to_front),
     #Key([mod], "Escape", lazy.spawn("fcitx5-remote -c")),
@@ -321,8 +317,8 @@ extension_defaults = widget_defaults.copy()
 
 wallpaper = '11.jpg'
 my_font = "JetBrainsMono Nerd Font Mono"
-my_fontsize = 18
-clock_fontsize = 20
+my_fontsize = 20
+clock_fontsize = 25
 background = colors[13]
 foreground = colors[2]
 
@@ -390,33 +386,11 @@ def init_widgets_list(secondar=False):
             font = my_font,
             fontsize = my_fontsize,
             padding = 0,
-            #format=" {up:4.1f}{up_suffix:<2} {down:4.1f}{down_suffix:<2}",
             format = '{down:.0f}{down_suffix} ↓↑ {up:.0f}{up_suffix}',
-            #format = '{down} ↓↑ {up}',
             prefix="M",
             **decor
         ),
         widget.Spacer(length=10),
-        #widget.WiFiIcon(
-        #    background = background,
-        #    font = my_font,
-        #    expanded_timeout = 2,
-        #    padding_x = 0,
-        #    padding_y = 8,
-        #    wifi_arc = 75,
-        #    **decor,
-        #),
-        #widget.Bluetooth(
-        #    background = background,
-        #    default_text = '',
-        #    fontsize = 18,
-        #    font = my_font,
-        #    mouse_callbacks={
-        #        "Button1": 
-        #        lazy.spawn("blueman-manager")
-        #    },
-        #    **decor,
-        #),
         #系统托盘
         #widget.Systray(
         #    background = "#D08770",
@@ -483,7 +457,7 @@ def init_widgets_list(secondar=False):
             foreground = foreground,
             font = my_font,
             fontsize = clock_fontsize,
-            format = "%I:%M",
+            format = "| %I:%M",
             **decor,
         ),
         widget.Spacer(length=5),
@@ -491,17 +465,17 @@ def init_widgets_list(secondar=False):
     return widgets_list
 widgets_list = init_widgets_list()
 mybar = bar.Bar(widgets_list,30,opacity=0.9,background="00000000")
-def init_screens():
-    return [
-            Screen(
-                #wallpaper=f"~/workspace/wallpaper/{wallpaper}",
-                #wallpaper_mode="fill",
-                #top=bar.Bar(widgets_list,30,opacity=0.9,background="00000000")
-                top=mybar
-            )
-    ]
-
-screens = init_screens()
+screens = [Screen(top = mybar)]
+#def init_screens():
+#    return [
+#            Screen(
+#                #wallpaper=f"~/workspace/wallpaper/{wallpaper}",
+#                #wallpaper_mode="fill",
+#                #top=bar.Bar(widgets_list,30,opacity=0.9,background="00000000")
+#                top=mybar
+#            )
+#    ]
+#screens = init_screens()
 
 #----------------------------------------------------------------------------
 # Drag floating layouts.
