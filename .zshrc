@@ -7,6 +7,7 @@
 source ~/.config/omz/omz.zsh  
 export _OMZ_APPLY_PREEXEC_HOOK=true
 export _OMZ_APPLY_CHPWD_HOOK=true
+export _OMZ_APPLY_HISTORYBYFZF=true
 
 export EDITOR=nvim
 export VISUAL=nvim
@@ -26,11 +27,14 @@ export GTK_THEME=Breeze-Dark
 export DESKTOP_SESSION=gnome
 # export XDG_CURRENT_DESKTOP=GNOME
 
+#tldr的中文配置
+export TLDR_LANGUAGE="zh"
+
 #登陆自启动X
 [ -z $DISPLAY ] && [ $(tty) = "/dev/tty1" ] && startx
 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
-alias nvi='nvim'
+alias vi='nvim'
 
 dam() {
   local gitdir=$HOME/.dotfiles
