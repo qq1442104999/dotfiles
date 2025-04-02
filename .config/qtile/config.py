@@ -50,19 +50,19 @@ def _screen1(window):
         elif w_name == "Steam - 新闻":
             window.kill()
 
-default_opacity = 0.95
-@hook.subscribe.client_new
-def set_window_opacity(window):
-    window.set_opacity(default_opacity)
+#default_opacity = 0.95
+#@hook.subscribe.client_new
+#def set_window_opacity(window):
+#    window.set_opacity(default_opacity)
 
-@hook.subscribe.client_focus
-def adjust_opacity_on_focus(window):
-    if window.fullscreen:
-        window.opacity = 1.0
-    elif window.wm_class and window.wm_class.lower() == 'google-chrome':
-        window.opacity = 1.0
-    else:
-        window.opacity = default_opacity
+#@hook.subscribe.client_focus
+#def adjust_opacity_on_focus(window):
+#    if window.fullscreen:
+#        window.opacity = 1.0
+#    elif window.wm_class and window.wm_class.lower() == 'google-chrome':
+#        window.opacity = 1.0
+#    else:
+#        window.opacity = default_opacity
 
 #----------------------------------------------------------------
 """
