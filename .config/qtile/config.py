@@ -50,19 +50,47 @@ def _screen1(window):
         elif w_name == "Steam - 新闻":
             window.kill()
 
-#default_opacity = 0.95
-#@hook.subscribe.client_new
-#def set_window_opacity(window):
-#    window.set_opacity(default_opacity)
-
-#@hook.subscribe.client_focus
-#def adjust_opacity_on_focus(window):
-#    if window.fullscreen:
-#        window.opacity = 1.0
-#    elif window.wm_class and window.wm_class.lower() == 'google-chrome':
-#        window.opacity = 1.0
-#    else:
-#        window.opacity = default_opacity
+def move_window_and_switch_group(qtile, direction="right"):
+    current_group = qtile.current_group
+    groups = [g for g in qtile.groups if g.name != "scratchpad"]
+    group_names = [g.name for g in groups]
+ 
+    try:
+        idx = group_names.index(current_group.name)
+    except ValueError:
+        return
+ 
+    if direction == "left":
+        target_idx = (idx - 1) % len(group_names)
+    elif direction == "right":
+        target_idx = (idx + 1) % len(group_names)
+    else:
+        return
+ 
+    target_group_name = group_names[target_idx]
+    win = qtile.current_window
+ 
+    if win:
+        # 移动窗口到目标 group（不切屏幕）
+        win.togroup(target_group_name, switch_group=False)
+ 
+        # 设置为浮动状态并固定位置大小
+        if not win.floating:
+            win.toggle_floating()
+        win.place(
+            x=200, y=150, width=900, height=600,
+            borderwidth=2, bordercolor='cc6666'
+        )
+ 
+    # 切换屏幕到目标 group
+    for screen in qtile.screens:
+        if screen.group == current_group:
+            qtile.groups_map[target_group_name].toscreen(screen.index)
+            break
+ 
+    # 切换 group 后聚焦当前窗口（不然看不到它）
+    if win:
+        qtile.groups_map[target_group_name].focus(win, warp=True)
 
 #----------------------------------------------------------------
 """
@@ -156,6 +184,19 @@ keys = [
         [],
         "XF86AudioLowerVolume",
         lazy.spawn("amixer set Master 5%-")
+    ),
+
+    Key(
+        [mod, "shift"],
+        "Left",
+        lazy.function(lambda qtile: move_window_and_switch_group(qtile, direction="left")),
+        desc="Move window to previous group and switch"
+    ),
+    Key(
+        [mod, "shift"],
+        "Right",
+        lazy.function(lambda qtile: move_window_and_switch_group(qtile, direction="right")),
+        desc="Move window to next group and switch"
     ),
 
     #app快捷键
