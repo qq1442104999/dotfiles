@@ -16,6 +16,7 @@ export VISUAL=nvim
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
+export GLFW_IM_MODULE=ibus
 
 #QT主题
 export QT_QPA_PLATFORMTHEME=qt6ct
@@ -33,9 +34,7 @@ export TLDR_LANGUAGE="zh"
 #登陆自启动X
 [ -z $DISPLAY ] && [ $(tty) = "/dev/tty1" ] && startx
 
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
-alias vi='nvim'
-
+#点文件上传
 dam() {
   local gitdir=$HOME/.dotfiles
   local worktree=$HOME
@@ -56,3 +55,7 @@ dam() {
   }
   echo "Successfully added and committed: $*"
 }
+
+#按键映射
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
+alias vv='nvim'
