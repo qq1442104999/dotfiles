@@ -110,7 +110,8 @@ wl_input_rules = {
 """
 #----------------------------------------------------------------
 mod = "mod4"
-terminal = guess_terminal()
+terminal = "kitty"
+#terminal = guess_terminal()
 
 keys = [
     # 在窗口间切换 
@@ -143,6 +144,7 @@ keys = [
         "Return",
         lazy.layout.toggle_split(),
     ),
+
     Key([mod], "Return", lazy.spawn(terminal)),
     Key([mod], "space", lazy.next_layout()),
     Key([mod], "q", lazy.window.kill()),
@@ -161,18 +163,16 @@ keys = [
     Key([mod], "f", lazy.window.toggle_fullscreen()),
     
     #最小化窗口
-    Key([mod], "x", 
+    Key([mod], "h", 
         lazy.window.toggle_minimize(), 
         lazy.layout.next(),
         ),
     
-    #最小化窗口恢复
-    Key([mod, "shift"], "x", minimize),
-    #Key([mod, "shift"], "f", lazy.group.setlayout("max")),
+    #恢复最小化窗口
+    Key([mod, "shift"], "h", minimize),
     
     #浮动窗口置顶
     Key([mod], "a", float_to_front),
-    #Key([mod], "Escape", lazy.spawn("fcitx5-remote -c")),
     
     #音量快捷键
     Key(
@@ -302,7 +302,7 @@ layouts = [
     ),
     layout.Max(**layout_theme),
     #layout.Plasma(),
-    #layout.Matrix(**layout_theme,columns = 3),
+    layout.Matrix(**layout_theme,columns = 3),
 ]
 
 floating_layout = layout.Floating(
@@ -357,7 +357,7 @@ widget_defaults = dict(
 extension_defaults = widget_defaults.copy()
 
 wallpaper = '11.jpg'
-my_font = "JetBrainsMono Nerd Font Mono"
+my_font = "JetBrainsMono Nerd Font"
 my_fontsize = 20
 clock_fontsize = 25
 background = colors[13]
@@ -504,19 +504,12 @@ def init_widgets_list(secondar=False):
         widget.Spacer(length=5),
     ]
     return widgets_list
+
 widgets_list = init_widgets_list()
+
 mybar = bar.Bar(widgets_list,30,opacity=0.9,background="00000000")
+
 screens = [Screen(top = mybar)]
-#def init_screens():
-#    return [
-#            Screen(
-#                #wallpaper=f"~/workspace/wallpaper/{wallpaper}",
-#                #wallpaper_mode="fill",
-#                #top=bar.Bar(widgets_list,30,opacity=0.9,background="00000000")
-#                top=mybar
-#            )
-#    ]
-#screens = init_screens()
 
 #----------------------------------------------------------------------------
 # Drag floating layouts.
@@ -524,6 +517,8 @@ mouse = [
     Drag([mod], "Button1", lazy.window.set_position_floating(), start=lazy.window.get_position()),
     Drag([mod], "Button3", lazy.window.set_size_floating(), start=lazy.window.get_size()),
     Click([mod], "Button2", lazy.window.bring_to_front()),
+
+    # Click([], "Button1", lazy.window.bring_to_front()),
 ]
 
 #------------------------------------------------------------------------------
