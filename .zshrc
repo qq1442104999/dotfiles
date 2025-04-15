@@ -2,13 +2,13 @@
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-
 #zsh的omz配置
 source ~/.config/omz/omz.zsh  
 export _OMZ_APPLY_PREEXEC_HOOK=true
 export _OMZ_APPLY_CHPWD_HOOK=true
 export _OMZ_APPLY_HISTORYBYFZF=true
 
+#指定使用nvim
 export EDITOR=nvim
 export VISUAL=nvim
 
@@ -21,12 +21,10 @@ export GLFW_IM_MODULE=ibus
 #QT主题
 export QT_QPA_PLATFORMTHEME=qt6ct
 export QT_QPA_PLATFORMTHEME=qt5ct
-# export XDG_CURRENT_DESKTOP=KDE
 
 #GTK主题
 export GTK_THEME=Breeze-Dark
-export DESKTOP_SESSION=gnome
-# export XDG_CURRENT_DESKTOP=GNOME
+# export DESKTOP_SESSION=gnome
 
 #tldr的中文配置
 export TLDR_LANGUAGE="zh"
@@ -59,3 +57,4 @@ dam() {
 #按键映射
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 alias vv='nvim'
+alias rr='ranger'
