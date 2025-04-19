@@ -278,7 +278,7 @@ for i in groups:
     )
 
 groups.append(ScratchPad("scratchpad",[
-    DropDown("term", terminal, width=0.7, height=0.7, x=0.15, y=0.15, opacity=0.9)
+    DropDown("term", terminal, width=0.5, height=0.5, x=0.20, y=0.20, opacity=0.9)
 ]))
 
 keys.extend([
