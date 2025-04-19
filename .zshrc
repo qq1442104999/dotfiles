@@ -57,4 +57,4 @@ dam() {
 #按键映射
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 alias vv='nvim'
-alias ya='yazi'
+alias yy='yazi'
