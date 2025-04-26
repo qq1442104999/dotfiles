@@ -42,5 +42,5 @@ function y() {
 }
 
 #别称
-alias dotfiles='stow -t ~ . --adopt --ignore="\.git|README\.md"'
+alias dotfiles='cd ~/dotfiles && stow -t ~ . --adopt --ignore="\.git|README\.md"'
 alias v='nvim'
