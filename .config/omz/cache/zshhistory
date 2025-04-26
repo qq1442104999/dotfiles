@@ -1,0 +1,1835 @@
+: 1734529524:0;cd .config
+: 1734529529:0;l
+: 1734529582:4;git clone https://github.com/qq1442104999/omz.git
+: 1734529590:0;l
+: 1734529594:0;~
+: 1734529679:0;sudo pacman -Syyu && yay
+: 1734530372:0;cd .config/omz
+: 1734530373:0;l
+: 1734530452:0;rm .git .gitignore
+: 1734530456:0;rm .git
+: 1734530460:0;rm -r  .git
+: 1734530469:0;l
+: 1734530476:0;rm -rf  .git
+: 1734530477:0;l
+: 1734530545:0;~
+: 1734530561:0;dotfiles add .config/omz/
+: 1734530578:0;dotfiles commit -m "add omz"
+: 1734530589:0;dotfiles push
+: 1734530693:0;dotfiles submodule update --recursive
+: 1734530697:0;dotfiles push
+: 1734530968:0;cd .config
+: 1734530980:0;cd qtile
+: 1734530981:0;l
+: 1734530992:0;ranger
+: 1734531040:0;cd config
+: 1734531041:0;l
+: 1734531087:0;cd ..
+: 1734531088:0;l
+: 1734531113:0;vi
+: 1734531117:0;nvi
+: 1734531192:0;rm anzhuang
+: 1734531239:0;rm config.py1
+: 1734531241:0;l
+: 1734531250:0;rm .git
+: 1734531256:0;rm -r .git
+: 1734531257:0;l
+: 1734531299:0;~
+: 1734531316:0;gam .config/qtile
+: 1734531380:0;dotfiles add .config/qtile
+: 1734531412:0;dotfiles commit -m "add qtile"
+: 1734531424:0;dotfiles push
+: 1734531492:0;cd .config/qtile
+: 1734531499:0;cd config
+: 1734531514:0;rm zshrc
+: 1734531556:0;mv picom.conf ~/.config
+: 1734531578:0;mv dunst.conf ~/.config
+: 1734531585:0;cd ..
+: 1734531586:0;l
+: 1734531598:0;vi
+: 1734531600:0;nvi
+: 1734531648:0;l]
+: 1734531650:0;l
+: 1734531657:0;cd scripts
+: 1734531670:0;l
+: 1734531678:0;mv auto-connect-bluetooth.sh ../
+: 1734531685:0;mv autostart.sh ../
+: 1734531688:0;cd ../
+: 1734531689:0;l
+: 1734531702:0;vi
+: 1734531704:0;nvi
+: 1734531762:0;ranger
+: 1734531779:0;l
+: 1734531788:0;ranger
+: 1734531808:0;~
+: 1734531821:0;dotfiles status
+: 1734531840:0;dotfiles add
+: 1734531847:0;dotfiles add .config/qtile
+: 1734531869:0;dotfiles commit -m "qtile"
+: 1734531880:0;dotfiles push
+: 1734531887:0;reboot
+: 1734532032:0;yyay
+: 1734532034:0;yay
+: 1734532044:0;z q
+: 1734532046:0;vi
+: 1734532048:0;nvi
+: 1734532254:0;sudo pacman -S udiskie\
+
+: 1734532499:0;nvi
+: 1734532506:0;vi
+: 1734532509:0;nvi
+: 1734532525:0;~
+: 1734532541:0;nvi .xinitrc
+: 1734532577:0;cd ~/workspace/wallpaper
+: 1734532578:0;l
+: 1734532705:0;cd ..
+: 1734532706:0;l
+: 1734532764:0;~
+: 1734532765:0;l
+: 1734532789:0;cd workspace
+: 1734532793:0;~
+: 1734532808:0;mv workspace/wallpaper ../
+: 1734532817:0;sudo mv workspace/wallpaper ../
+: 1734532819:0;l
+: 1734532844:0;cd
+: 1734532848:0;l
+: 1734532875:0;cd /
+: 1734532876:0;l
+: 1734532900:0;home/wallpaper l
+: 1734532914:0;sudo l
+: 1734532919:0;sudo ls
+: 1734532928:0;cd
+: 1734532932:0;ll
+: 1734532946:0;cd workspace
+: 1734532947:0;l
+: 1734532983:0;cd
+: 1734532990:0;.local/share/Steam/steamapps/common/Stardew\ Valley/Content/Maps/wallpapers_2.xnb cd
+: 1734532995:0;wall
+: 1734533000:0;l
+: 1734533013:0;cd ../
+: 1734533015:0;l
+: 1734533030:0;mv wallpaper ~/
+: 1734533034:0;sudo mv wallpaper ~/
+: 1734533037:0;cd
+: 1734533044:0;cd wallpaper
+: 1734533045:0;l
+: 1734533059:0;reboot
+: 1734533136:0;z
+: 1734533143:0;~
+: 1734533167:0;nvi .xinitrc
+: 1734533218:0;sudo pacman -S feh
+: 1734533233:0;feh --bg-fill --randomize ~/wallpaper/*
+: 1734533237:0;reboot
+: 1734533389:0;nvi .xinitrc
+: 1734533429:0;z q
+: 1734533431:0;nvi
+: 1734533477:0;reboot
+: 1734533534:0;nvi
+: 1734533556:0;~
+: 1734533560:0;nvi .xinitrc
+: 1734533582:0;reboot
+: 1734533654:0;z q
+: 1734533656:0;nvio
+: 1734533660:0;nvi
+: 1734533686:0;~
+: 1734533689:0;nvi .xinitrc
+: 1734533696:0;reboot
+: 1734533785:0;nvi .xinitrc
+: 1734533906:0;dotfiles status
+: 1734533936:0;nvi
+: 1734534113:0;reboot
+: 1734534205:0;dadd .zshrc
+: 1734534219:0;dadd .xinitrc
+: 1734534243:0;dotfiles commit -m ""
+: 1734534266:0;dotfiles commit -m "zshrc"
+: 1734534271:0;dotfiles
+: 1734534279:0;dotfiles push
+: 1734534295:0;dotfiles ststus
+: 1734534306:0;dotfiles status
+: 1734534329:0;dadd .config/omz
+: 1734534337:0;dadd .config/qtile
+: 1734534374:0;dotfiles commit -m "1"
+: 1734534390:0;dotfiles push
+: 1734534412:0;dotfiles status
+: 1734534441:0;dadd .config/omz
+: 1734534457:0;dotfiles commit -m '2'
+: 1734534465:0;dotfiles push
+: 1734534479:0;dotfiles status
+: 1734534693:0;nvi .zshrc
+: 1734534936:0;source .zzs
+: 1734534944:0;source .zshrc 
+: 1734534945:0;z
+: 1734534949:0;~
+: 1734534965:0;dam .config/omz
+: 1734534981:0;dotfiles push
+: 1734534998:0;dam .zshrc
+: 1734535011:0;dotfiles push
+: 1734535025:0;dotfiles status
+: 1734535063:0;z q
+: 1734535071:0;bat autostart.sh
+: 1734535081:0;~
+: 1734535096:0;bat .zshrc
+: 1734535137:0;dam .config/dunst.conf
+: 1734535149:0;dotfiles push
+: 1734535171:0;dam .config/picom.conf
+: 1734535175:0;dotfiles push
+: 1734535203:0;dam wallpaper
+: 1734535212:0;dotfiles push
+: 1734535447:0;cd .config/omz
+: 1734535451:0;nvi
+: 1734607743:0;~
+: 1734607744:0;l
+: 1734607787:0;cd workspace/git/fzf
+: 1734607788:0;l
+: 1734607831:0;cd
+: 1734607887:0;dam workspace/yaocc.cc
+: 1734607895:0;dotfiles push
+: 1734608838:0;sudo pacman -Syyu && yay
+: 1734615164:0;sudo pacman -S xorg-xinit xorg-twm xterm\
+
+: 1734615216:0;sudo pacman -S plasma-meta kde-applications\
+
+: 1734615250:0;sudo pacman -S plasma\
+
+: 1734616992:0;nvi
+: 1734617572:0;sudo pacman -S trayer\
+
+: 1734617589:0;trayer
+: 1734617636:0;[200~trayer --edge top --align right --widthtype request --SetDockType true --SetPartialStrut true \ 
+: 1734617638:0;trayer --edge top --align right --widthtype request --SetDockType true --SetPartialStrut true \\
+       --expand true --transparent true --alpha 0 --tint 0x282828 --height 20 &
+: 1734617716:0;sudo pacman -Rns trayer\
+
+: 1734617728:0;z q
+: 1734617730:0;vi
+: 1734617732:0;nvi
+: 1734617769:0;sudo pacman -S stalonetray\
+
+: 1734617782:0;stalonetray --icon-gravity NE --max-geometry 1x1 --background '#282828' --geometry 8x1
+: 1734617913:0;nvi
+: 1734618006:0;stalonetray --icon-gravity NE --max-geometry 1x1 --background '#282828' --geometry 8x1
+: 1734618082:0;nvi 
+: 1734618108:0;reboot
+: 1734618370:0;nvi
+: 1734618386:0;reboot
+: 1734618468:0;nvi
+: 1734618744:0;feh --bg-fill --randomize ~/wallpaper/*
+: 1734618849:0;stalonetray --icon-gravity NE --geometry 5x1+0+0 --transparent --tint 0x282828 --alpha 128
+: 1734618853:0;~
+: 1734618855:0;stalonetray --icon-gravity NE --geometry 5x1+0+0 --transparent --tint 0x282828 --alpha 128
+: 1734618888:0;stalonetray --icon-gravity NE --max-geometry 1x1 --background '#282828' --geometry 8x1
+: 1734619012:0;stalonetray --icon-gravity NE --max-geometry 1x1 --background '#282828' --geometry 8x1+100-0
+: 1734619026:0;stalonetray --icon-gravity NE --max-geometry 1x1 --background '#282828' --geometry 8x1+50-0
+: 1734619037:0;stalonetray --icon-gravity NE --max-geometry 1x1 --background '#282828' --geometry 8x1+10-0
+: 1734619057:0;stalonetray --icon-gravity NE --max-geometry 1x1 --background '#282828' --geometry 8x1+1-0
+: 1734619080:0;stalonetray --icon-gravity NE --max-geometry 1x1 --background '#282828' --geometry 8x1+1+10
+: 1734619089:0;stalonetray --icon-gravity NE --max-geometry 1x1 --background '#282828' --geometry 8x1+1+9
+: 1734619095:0;stalonetray --icon-gravity NE --max-geometry 1x1 --background '#282828' --geometry 8x1+1+8
+: 1734619100:0;stalonetray --icon-gravity NE --max-geometry 1x1 --background '#282828' --geometry 8x1+1+7
+: 1734619107:0;stalonetray --icon-gravity NE --max-geometry 1x1 --background '#282828' --geometry 8x1+1+6
+: 1734619113:0;stalonetray --icon-gravity NE --max-geometry 1x1 --background '#282828' --geometry 8x1+1+5
+: 1734619130:0;stalonetray --icon-gravity NE --max-geometry 1x1 --background '#282828' --geometry 8x1+1+4
+: 1734619148:0;stalonetray --icon-gravity NE --max-geometry 1x1 --background '#282828' --geometry 8x1+10+4
+: 1734619154:0;stalonetray --icon-gravity NE --max-geometry 1x1 --background '#282828' --geometry 8x1+30+4
+: 1734619830:0;xprop
+: 1734619907:0;sudo pacman -S xcolor\
+
+: 1734619923:0;xcolor
+: 1734619943:0;nvi
+: 1734620056:0;xcolor
+: 1734620157:0;stalonetray --icon-gravity NE --max-geometry 1x1 --background '#282828' --geometry 8x1+30+4
+: 1734620168:0;stalonetray --icon-gravity NE --max-geometry 1x1 --background '#282828' --geometry 8x1+30+50
+: 1734620182:0;stalonetray --icon-gravity NE --max-geometry 1x1 --background '#282828' --geometry 8x1+30+30
+: 1734620201:0;stalonetray --icon-gravity NE --max-geometry 1x1 --background '#282828' --geometry 8x1+30+10
+: 1734620218:0;stalonetray --icon-gravity NE --max-geometry 1x1 --background '#282828' --geometry 8x1+30+4
+: 1734620247:0;stalonetray --icon-gravity NE --max-geometry 1x1 --background '#282828' --geometry 8x1+0+4
+: 1734620292:0;stalonetray --icon-gravity NE --max-geometry 1x1 --background '#282828' --geometry 8x1+10+4
+: 1734620301:0;stalonetray --icon-gravity NE --max-geometry 1x1 --background '#282828' --geometry 8x1+30+4
+: 1734620307:0;stalonetray --icon-gravity NE --max-geometry 1x1 --background '#282828' --geometry 8x1+100+4
+: 1734620320:0;stalonetray --icon-gravity NW --max-geometry 1x1 --background '#282828' --geometry 8x1+100+4
+: 1734620327:0;stalonetray --icon-gravity NE --max-geometry 1x1 --background '#282828' --geometry 8x1+1+4
+: 1734620348:0;stalonetray --icon-gravity NW --max-geometry 1x1 --background '#282828' --geometry 8x1+1+4
+: 1734620409:0;stalonetray  --max-geometry 1x1 --background '#282828' --geometry 8x1+1+4
+: 1734620422:0;stalonetray  --max-geometry 1x1 --background '#282828' --geometry 8x1+100+4
+: 1734620429:0;stalonetray  --max-geometry 1x1 --background '#282828' --geometry 8x1+1000+4
+: 1734620437:0;stalonetray  --max-geometry 1x1 --background '#282828' --geometry 8x1+3000+4
+: 1734620449:0;stalonetray  --max-geometry 1x1 --background '#282828' --geometry 8x1+2000+4
+: 1734620457:0;stalonetray  --max-geometry 1x1 --background '#282828' --geometry 8x1+1800+4
+: 1734620463:0;stalonetray  --max-geometry 1x1 --background '#282828' --geometry 8x1+1900+4
+: 1734620470:0;stalonetray  --max-geometry 1x1 --background '#282828' --geometry 8x1+1950+4
+: 1734620480:0;stalonetray  --max-geometry 1x1 --background '#282828' --geometry 8x1+1940+4
+: 1734620677:0;stalonetray --icon-gravity NE --max-geometry 1x1 --background '#282828' --geometry 8x1+0+4
+: 1734620698:0;stalonetray  --max-geometry 1x1 --background '#282828' --geometry 8x1+1940+4
+: 1734620737:0;stalonetray  --max-geometry 1x1 --grow-gravity W --background '#282828' --geometry 8x1+1940+4
+: 1734690110:0;reboot
+: 1734692798:0;stalonetray  --max-geometry 1x1 --grow-gravity W --background '#282828' --geometry 8x1+1940+4
+: 1734692867:0;stalonetray  --max-geometry 1x1 --grow-gravity E --background '#282828' --geometry 8x1+1940+4
+: 1734692881:0;stalonetray  --max-geometry 1x1  --background '#282828' --geometry 8x1+1940+4
+: 1734693064:0;stalonetray  --max-geometry 1x1  stalonetray --icon-gravity NE --background '#282828' --geometry 8x1+1940+4
+: 1734693082:0;stalonetray  --max-geometry 1x1  --icon-gravity NE --background '#282828' --geometry 8x1+1940+4
+: 1734693114:0;stalonetray  --max-geometry 1x1  stalonetray --icon-gravity NE --background '#282828' --geometry 8x1+1940+4
+: 1734693130:0;stalonetray  --max-geometry 1x1 --icon-gravity NE --background '#282828' --geometry 8x1+1940+4
+: 1734693304:0;stalonetray  --max-geometry 1x1 --icon-gravity NE --transparent --background '#282828' --geometry 8x1+1940+4
+: 1734693337:0;stalonetray  --max-geometry 1x1 --icon-gravity NE --transparent --tint-level 128 --background '#282828' --geometry 8x1+1940+4
+: 1734693363:0;stalonetray  --max-geometry 1x1 --icon-gravity NE --transparent --tint-level 128 --skip-taskbar  --background '#282828' --geometry 8x1+1940+4
+: 1734693401:0;stalonetray  --max-geometry 1x1 --icon-gravity NE --transparent --tint-level 12 --background '#282828' --geometry 8x1+1940+4
+: 1734693413:0;stalonetray  --max-geometry 1x1 --icon-gravity NE --transparent --tint-level 0  --background '#282828' --geometry 8x1+1940+4
+: 1734693431:0;stalonetray  --max-geometry 1x1 --icon-gravity NE --transparent  --background '#282828' --geometry 8x1+1940+4
+: 1734693441:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --geometry 8x1+1940+4
+: 1734693541:0;feh --bg-fill --randomize ~/wallpaper/*
+: 1734693627:0;z q
+: 1734693630:0;nvi
+: 1734694440:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --geometry 8x1+1940+4
+: 1734694609:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 8x1+1940+4
+: 1734694733:0;xprop
+: 1734694762:0;~
+: 1734694784:0;nvi .config/picom.conf
+: 1734694841:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 8x1+1940+4
+: 1734694872:0;nvi
+: 1734694997:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 8x1+1940+4
+: 1734696233:0;xpro
+: 1734696235:0;xprop
+: 1734696812:0;reboot
+: 1734696881:0;feh --bg-fill --randomize ~/wallpaper/*
+: 1734696922:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 8x1+1940+4
+: 1734696937:0;nvi .config/picom.conf
+: 1734698788:0;reboot
+: 1734698850:0;feh --bg-fill --randomize ~/wallpaper/*
+: 1734698866:0;nvi .config/picom.conf
+: 1734698879:0;reboot
+: 1734698946:0;nvi .config/picom.conf
+: 1734699025:0;reboot
+: 1734699096:0;z q
+: 1734699099:0;nvim
+: 1734699125:0;picom --config ~/.config/picom.conf
+: 1734699160:0;cd
+: 1734699164:0;nvi .config/picom.conf
+: 1734699473:0;dotfiles checkout .config/picom.conf\
+
+: 1734699478:0;picom --config ~/.config/picom.conf
+: 1734699570:0;reboot
+: 1734699704:0;picom --config ~/.config/picom.conf
+: 1734699749:0;z q
+: 1734699754:0;nvi 
+: 1734699783:0;reboot
+: 1734699854:0;nvi
+: 1734700079:0;cd
+: 1734700087:0;z q
+: 1734700092:0;nvim
+: 1734700115:0;reboot
+: 1734700386:0;ra
+: 1734700394:0;ranger
+: 1734700429:0;cd
+: 1734700445:0;nvi .config/picom.conf
+: 1734700520:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 8x1+1940+4
+: 1734700610:0;reboot
+: 1734700867:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 8x1+1940+4
+: 1734700874:0;z q
+: 1734700876:0;nvi
+: 1734701039:0;cd
+: 1734701044:0;nvi .config/picom.conf
+: 1734701056:0;xprrop
+: 1734701061:0;xprop
+: 1734701172:0;z q
+: 1734701173:0;nvim
+: 1734701291:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 8x1+1950+4
+: 1734701304:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 8x1+1980+4
+: 1734701326:0;ranger
+: 1734701368:0;reboot
+: 1734701825:0;feh --bg-fill --randomize ~/wallpaper/*
+: 1734701846:0;sudo pacman -Syyu && yay
+: 1734703668:0;cd
+: 1734703673:0;ranger
+: 1734776411:0;sudo pacman -Syyu &&  yay 
+: 1734776451:0;z 1
+: 1734776453:0;z q
+: 1734776458:0;nvi
+: 1734776516:0;feh --bg-fill --randomize ~/wallpaper/*
+: 1734776581:0;cd
+: 1734776587:0;nvi .zshrc
+: 1734776760:0;reboot
+: 1734782252:0;feh --bg-fill --randomize ~/wallpaper/*
+: 1734782298:0;dotfiles status
+: 1734782355:0;dam .zshrc .config/picom.conf .config/qtile 
+: 1734782365:0;dotfiles push
+: 1734782508:0;dotfiles status
+: 1734782572:0;nvi .dotfiles/info/exclude
+: 1734782723:0;l .dotfiles/info
+: 1734782727:0;dotfiles status
+: 1734782760:0;nvi .dotfiles/info/exclude
+: 1734782772:0;dotfiles status
+: 1734782951:0;dotfiles rm --cached .config/omz/cache/cursor
+: 1734782963:0;dotfiles rm --cached .config/omz/cache/fzfhistory\
+
+: 1734782982:0;dotfiles rm --cached .config/omz/cache/zshhistory\
+\
+
+: 1734782985:0;dotfiles status
+: 1734783039:0;dotfiles commit -m "commit -m "Stop tracking .config/omz/cache files"
+: 1734783046:0;dotfiles commit -m commit -m "Stop tracking .config/omz/cache files"
+: 1734783068:0;dotfiles push
+: 1734783102:0;dotfiles status
+: 1734783278:0;sudo pacman -S qt5-styleplugins\
+
+: 1734783289:0;yay -S qt5-styleplugins\
+
+: 1734783332:0;echo $QT_QPA_PLATFORMTHEME
+: 1734783773:0;QT_QPA_PLATFORMTHEME=qt5ct dolphin
+: 1734783782:0;QT_QPA_PLATFORMTHEME=qt5ct  pavucontrol
+: 1734783859:0;sudo pacman -S gtk3 gtk2 lxappearance\
+
+: 1734783940:0;l
+: 1734783985:0;GTK_THEME=Adwaita pavucontrol\
+
+: 1734784031:0;bat ~/.config/gtk-3.0/settings.ini
+: 1734784059:0;GTK_THEME=Breeze-Dark  pavucontrol
+: 1734784092:0;export GTK_THEME=Breeze-Dark\
+
+: 1734784109:0;export XDG_CURRENT_DESKTOP=GNOME
+: 1734784227:0;nvi .zshrc
+: 1734784305:0;reboot
+: 1734784399:0;nvi .zshrc
+: 1734784408:0;reboot
+: 1734784579:0;nvi .zshrc
+: 1734784592:0;reboot
+: 1734784931:0;nvi .zshrc
+: 1734784982:0;reboot
+: 1734785042:0;feh --bg-fill --randomize ~/wallpaper/*
+: 1734785383:0;nvi .zshrc
+: 1734787589:0;sudo pacman -S qt5-base
+: 1734787866:0;sudo pacman -S gtk3
+: 1734788247:0;sudo pacman -S gnome-themes-extra\
+
+: 1734788255:0;sudo pacman -S adwaita-icon-theme\
+
+: 1734788573:0;sudo pacman -Ql qt5-styleplugins
+: 1734788606:0;yay -S qt6gtk2
+: 1734789865:0;nvi .zshrc
+: 1734789914:0;yay -S gtk-theme-switch2
+: 1734790023:0;gtk-theme-switch2\
+
+: 1734790293:0;yay -Rns gtk-theme-switch2
+: 1734790380:0;sudo pacman -S dconf-editor
+: 1734790406:0;dconf-editor
+: 1734790555:0;bat ~/.config/gtk-3.0/settings.ini
+: 1734790678:0;ps -a
+: 1734790695:0;kill 177826
+: 1734790844:0;nvi .zshrc
+: 1734791031:0;reboot
+: 1734791153:0;sudo pacman -Rns qt5ct-kde
+: 1734791166:0;sudo pacman -Rns qt5ct-kde-debug
+: 1734791178:0;sudo pacman -Rns qt5-styleplugins
+: 1734791184:0;sudo pacman -Rns qt5-styleplugins-debug
+: 1734791196:0;sudo pacman -Rns qt5-svg
+: 1734791208:0;sudo pacman -Syyu
+: 1734791385:0;feh --bg-fill --randomize ~/wallpaper/*
+: 1734791478:0;sudo pacman -Rns kvantum
+: 1734791481:0;sudo pacman -Rns kvantum-qt5
+: 1734791487:0;sudo pacman -Rns kvantum
+: 1734791511:0;dotfiles status
+: 1734791528:0;dam .zshrc wallpaper
+: 1734791538:0;dotfiles push
+: 1734791563:0;ps -a
+: 1734791588:0;kill 1326
+: 1734791598:0;bat .zshrc
+: 1734791629:0;bat .config/qtile/autostart.sh
+: 1734791646:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 6x1+1980+4
+: 1734791656:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 5x1+1980+4
+: 1734791665:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 6x1+1980+4
+: 1734791688:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 6x2+1980+4
+: 1734791695:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 6x1+1980+4
+: 1734791754:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --icon-size 24 --window-layer top --geometry 6x1+1980+4
+: 1734791768:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --icon-size 20 --window-layer top --geometry 6x1+1980+4
+: 1734791781:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --icon-size 24 --window-layer top --geometry 6x1+1980+4
+: 1734791795:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --icon-size 23  --window-layer top --geometry 6x1+1980+4
+: 1734791815:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 6x1+1980+4
+: 1734791845:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 5x1+1980+4
+: 1734791855:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 6x1+1980+4
+: 1734791863:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 5x1+1980+4
+: 1734791889:0;nvi .config/qtile/config.py
+: 1734791902:0;nvi .config/qtile/autostart.sh
+: 1734791918:0;reboot
+: 1734791981:0;z q
+: 1734791983:0;nvi
+: 1734792038:0;kill 1323
+: 1734792064:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 6+1980+4
+: 1734792069:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 5+1980+4
+: 1734792076:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 4+1980+4
+: 1734792083:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 5+1980+4
+: 1734792096:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 5+1990+4
+: 1734792114:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 5+1+1990+4
+: 1734792195:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 5x1+1990+4
+: 1734792205:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 5x1+2000+4
+: 1734792223:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 5x1+3000+4
+: 1734792231:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 5x1+2500+4
+: 1734792236:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 5x1+2100+4
+: 1734792245:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 5x1+2000+4
+: 1734792252:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 5x1+2100+4
+: 1734792257:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 5x1+2050+4
+: 1734792263:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 5x1+2045+4
+: 1734792290:0;reboot
+: 1734792527:0;nvi
+: 1734792713:0;xprop
+: 1734793493:0;reboot
+: 1734793574:0;nvi
+: 1734796012:0;qtile cmd-obj -o cmd -f restart\
+
+: 1734796052:0;kitty
+: 1734796058:0;ls
+: 1734796060:0;l
+: 1734796068:0;sudo pacman -Syyu
+: 1734796135:0;journalctl -xe | grep qtile\
+
+: 1734796211:0;ls -l /dev/input/*\
+
+: 1734796256:0;sudo usermod -aG input wang
+: 1734796259:0;l
+: 1734796285:0;nvi config.py
+: 1734863390:0;xprop
+: 1734863430:0;xprop | grep CLASS
+: 1734863470:0;nvi
+: 1734863477:0;ranger
+: 1734863519:0;xprop | grep CLASS
+: 1734864426:0;dotfiles status
+: 1734864445:0;cd
+: 1734864465:0;dotfiles status
+: 1734864478:0;dam .config/qtile 
+: 1734864484:0;dotfiles pash
+: 1734864487:0;dotfiles push
+: 1734864597:0;st
+: 1734864609:0;sudo pacman -Syyu && yay
+: 1734864659:0;dam .config/nvim
+: 1734864681:0;dotfiles push
+: 1734864751:0;cd .config/nvim
+: 1734864753:0;l
+: 1734864772:0;rm .git
+: 1734864777:0;rm -r  .git
+: 1734864780:0;l
+: 1734864790:0;bat .gitignore
+: 1734864812:0;cd 
+: 1734864828:0;dam .config/nvim
+: 1734864862:0;nvi
+: 1734865676:0;dotfiles rm --cached .config/nvim\
+\
+
+: 1734865703:0;git commit -m "rm nvim"
+: 1734865725:0;dotfiles commit -m "rm nvim"
+: 1734865730:0;dotfiles push
+: 1734865751:0;dam .config/nvim
+: 1734865759:0;dotfiles push
+: 1734866239:0;mkdir -p .config/rofi/themes
+: 1734866284:0;nvi .config/rofi/themes/mine.rasi
+: 1734866346:0;rofi -show drun -theme ~/.config/rofi/themes/mine.rasi
+: 1734866659:0;mkdir -p ~/.config/rofi\
+rofi -dump-config > ~/.config/rofi/config.rasi\
+
+: 1734866685:0;cd .config/rofi/
+: 1734866686:0;l
+: 1734866690:0;nvi
+: 1734866696:0;ranger
+: 1734867109:0;reboot
+: 1734867320:0;ranger
+: 1734868467:0;rofi -show drun -theme ~/.config/rofi/themes/mine.rasi
+: 1734868498:0;l
+: 1734868505:0;rm config.rasi
+: 1734868509:0;rofi -show drun -theme ~/.config/rofi/themes/mine.rasi
+: 1734868630:0;rofi -show drun -theme ~/.config/rofi/themes/mine.rasis
+: 1734868648:0;l
+: 1734868654:0;cd themes
+: 1734868655:0;l
+: 1734868663:0;rofi -show drun -theme ~/.config/rofi/themes/mine.rasis
+: 1734868674:0;rofi -show drun -theme ~/.config/rofi/themes/mine.rasi
+: 1734868681:0;z q
+: 1734868688:0;ranger
+: 1734868916:0;cd
+: 1734868921:0;nvi .config/rofi/themes/mine.rasi
+: 1734869181:0;dotfiles statuss
+: 1734869182:0;dotfiles status
+: 1734869209:0;dam .config/qtile .config/rofi
+: 1734869214:0;dotfiles push
+: 1734869279:0;st
+: 1734869289:0;sudo pacman -Syyu
+: 1734869309:0;nvi .config/rofi/themes/mine.rasi\ 
+: 1734869311:0;nvi .config/rofi/themes/mine.rasi
+: 1734875806:0;z q
+: 1734875809:0;nvi
+: 1734875947:0;kill 1315
+: 1734875957:0;bat autostart.sh
+: 1734875975:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 5x1+2040+4 
+: 1734875983:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 5x1+2020+4 
+: 1734875993:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 5x1+2020+4  &
+: 1734876001:0;nvi
+: 1734876010:0;nvi config.py
+: 1734877533:0;bat config.py
+: 1734878141:0;nvi config.py
+: 1734878167:0;cd
+: 1734878177:0;nvi .config/nvim
+: 1734878196:0;z nvim
+: 1734878199:0;nvi
+: 1734878239:0;nvi lua/profile.lua
+: 1734878315:0;nvi config.py
+: 1734878668:0;z q
+: 1734878672:0;nvi config.py
+: 1734878748:0;reboot
+: 1734878816:0;z q
+: 1734878819:0;nvi config.py
+: 1734879248:0;nvi 
+: 1734879392:0;nvi
+: 1734879744:0;nvi config.py
+: 1734880003:0;reboot
+: 1734880060:0;nvi config.py
+: 1734880458:0;kill 1315
+: 1734880469:0;reboot
+: 1734880554:0;kill 1316
+: 1734880563:0;nvi autostart.sh
+: 1734880639:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 5x1+2000+4
+: 1734880651:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 5x1+1950+4
+: 1734880658:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 5x1+1980+4
+: 1734880664:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 5x1+1970+4
+: 1734880689:0;reboot
+: 1734880960:0;cd
+: 1734880966:0;dotfiles status
+: 1734880980:0;bat .zshrc
+: 1734881016:0;nvi .xinitrc
+: 1734881035:0;nvi .zshrc
+: 1734881048:0;reboot
+: 1734881129:16;nvim .xinitrc
+: 1734881151:11;nvi .zshrc
+: 1734881179:0;source .zshrc
+: 1735049848:0;feh --bg-fill --randomize ~/wallpaper/*
+: 1735051241:0;nvi .zshrc
+: 1735051272:0;sudo pacman -Syyu
+: 1735128690:0;sudo pacman -Syyu && yay 
+: 1735128718:0;sudo pacman -S tldr
+: 1735128737:0;vi .zshrc
+: 1735128837:0;tldr ip
+: 1735128858:0;export TLDR_LANGUAGE="zh"\
+
+: 1735128860:0;tldr ip
+: 1735128864:0;reboot
+: 1735129018:0;vi .zshrc
+: 1735129062:0;z q
+: 1735129066:0;vi 
+: 1735129083:0;reboot
+: 1735129139:0;vi 
+: 1735129219:0;cd
+: 1735129224:0;vi .zshrc
+: 1735129239:0;reboot
+: 1735129293:0;vi .zshrc
+: 1735129322:0;tldr ip
+: 1735129579:0;z q
+: 1735129581:0;nvi
+: 1735129585:0;vi .zshrc
+: 1735129592:0;vi
+: 1735129812:0;bat ~/.local/share/qtile/qtile.log
+: 1735129857:0;yay -S qtile-extras
+: 1735129975:0;clash-verge
+: 1735130059:0;yay -S qtile-extras
+: 1735130169:0;reboot
+: 1735130249:0;tldr ip
+: 1735130271:0;cd
+: 1735130277:0;vi 
+: 1735130287:0;vi .zshrc
+: 1735130317:0;reboot
+: 1735131318:0;clash-verge
+: 1735131338:0;tldr ip
+: 1735131348:0;vi .zshrc
+: 1735131456:0;tldr ls
+: 1735131481:0;tldr --update
+: 1735131492:0;tldr ip
+: 1735135210:0;virsh -l
+: 1735135259:0;tldr virsh
+: 1735135274:0;virsh list
+: 1735136799:0;btop
+: 1735137055:0;df -h
+: 1735137282:0;virsh net-list
+: 1735210600:0;sudo pacman -Syyu && yay 
+: 1735213061:0;z work
+: 1735213064:0;l
+: 1735213086:0;mkdir -p manjaro
+: 1735213100:0;cd manjaro
+: 1735213173:0;qemu-img create -f qcow2 ./manjaro.qcow2 30G
+: 1735213184:0;l
+: 1735213453:0;virt-install \\
+--name manjaro \\
+--memory 4096 \\
+--vcpus 2 \\
+--disk path=./manjaro.qcow2,format=qcow2 \\
+--cdrom ~/Downloads/manjaro-kde-24.1.0-241001-linux610.iso  \\
+--os-variant archlinux \\
+--network network=default \\
+--graphics vnc,listen=0.0.0.0\
+
+: 1735213512:0;sudo pacman -S virt-viewer
+: 1735213595:0;virt-viewer --domanin-name manjaro\
+--name manjaro \\
+--memory 4096 \\
+--vcpus 2 \\
+--disk path=./manjaro.qcow2,format=qcow2 \\
+--cdrom ~/Downloads/manjaro-kde-24.1.0-241001-linux610.iso  \\
+--os-variant archlinux \\
+--network network=default \\
+--graphics vnc,listen=0.0.0.0\
+
+: 1735213626:0;virsh list
+: 1735213737:0;virsh net-list --all
+: 1735213748:0;virsh net-start default
+: 1735213761:0;virsh net-autostart default
+: 1735213855:0;ls /usr/share/libvirt/networks/\
+
+: 1735213998:0;sudo systemctl status libvirtd
+: 1735214046:0;vi /usr/share/libvirt/networks/default.xml
+: 1735214073:0;sudo vi /usr/share/libvirt/networks/default.xml
+: 1735214083:0;sudo nvim  /usr/share/libvirt/networks/default.xml
+: 1735214131:0;vi
+: 1735214263:0;virsh net-list --all
+: 1735214409:0;sudo mkdir -p   /usr/share/libvirt/networks/
+: 1735214425:0;vi   /usr/share/libvirt/networks/default.xml
+: 1735214465:0;sudo nvim   /usr/share/libvirt/networks/default.xml
+: 1735214539:0;cd ~/Downloads
+: 1735214554:0;mv manjaro-kde-24.1.0-241001-linux610.iso  /var/lib/libvirt/images
+: 1735214563:0;sudo mv manjaro-kde-24.1.0-241001-linux610.iso  /var/lib/libvirt/images
+: 1735214716:0;virsh net-list --all
+: 1735214905:0;virsh list
+: 1735215995:0;cd
+: 1735216005:0;sudo virt-manager
+: 1735216055:0;feh --bg-fill --randomize ~/wallpaper/*
+: 1735216057:0;feh --bg-fill --randomize ~/wallpaper/*1
+: 1735216059:0;feh --bg-fill --randomize ~/wallpaper/*
+: 1735216679:0;cd /var/lib/libvirt/network
+: 1735216680:0;l
+: 1735216690:0;cd /var/lib/libvirt/images
+: 1735216691:0;l
+: 1735217964:0;sudo pacman -S edk2-ovmf
+: 1735218842:0;l]
+: 1735218843:0;l
+: 1735218893:0;sudo /run/media/wang/Ventoy/images/manjaro-kde-24.1.0-241001-linux610.iso   ./
+: 1735218895:0;l
+: 1735218911:0;sudo cp /run/media/wang/Ventoy/images/manjaro-kde-24.1.0-241001-linux610.iso   ./
+: 1735219644:0;l
+: 1735220487:0;z q
+: 1735220493:0;vi .zshrc
+: 1735220518:0;cd
+: 1735220522:0;vi .zshrc
+: 1735220627:0;sudo pacman -S ueberzug
+: 1735220700:0;clear
+: 1735220847:0;bat .xinitrc
+: 1735300357:0;sudo pacman -Syyu && yay 
+: 1735300727:0;btop
+: 1735305192:0;lsmod | grep hid_sony\
+
+: 1735305207:0;sudo modprobe hid_sony\
+
+: 1735305358:0;lsmod | grep hid_sony\
+
+: 1735305386:0;sudo pacman -S joystick\
+
+: 1735305396:0;[200~jstest /dev/input/js0
+: 1735305402:0;jstest /dev/input/js0\
+
+: 1735305458:0;bluetoothctl
+: 1735305509:0;ls /dev/input/\
+
+: 1735305554:0;lsmod | grep uinput\
+
+: 1735305558:0;sudo modprobe uinput\
+
+: 1735305596:0;sudo pacman -S evtest
+: 1735305603:0;evtest
+: 1735305765:0;sudo pacman -S ds4drv\
+
+: 1735305789:0;yay -S ds4drv
+: 1735305821:0;ds4drv
+: 1735305869:0;reboot
+: 1735306650:0;sudo pacman -S joystick
+: 1735306663:0;sudo systemctl restart bluetooth
+: 1735306669:0;sudo systemctl enable bluetooth
+: 1735306677:0;rfkill list bluetooth\
+
+: 1735306720:0;sudo jstest /dev/input/js0\
+
+: 1735306765:0;sudo modprobe hid_sony\
+
+: 1735306776:0;sudo pacman -S sdl2\
+
+: 1735306785:0;journalctl -u bluetooth\
+
+: 1735306921:0;sudo pacman -S bluez-firmware\
+
+: 1735306934:0;sudo yay  -S bluez-firmware\
+
+: 1735306941:0;yay  -S bluez-firmware\
+
+: 1735306968:0;ds4drv --hidraw
+: 1735307293:0;reboot
+: 1735307792:0;sudo jstest /dev/input/js0\
+
+: 1735307874:0;sudo pacman -Rns ds4drv
+: 1735307886:0;reboot
+: 1735308702:0;z q
+: 1735308706:0;vi
+: 1735311622:0;pacman -S telegram-desktop
+: 1735311628:0;sudo pacman -S telegram-desktop
+: 1735312447:0;kill 111977
+: 1735390269:0;xprop | grep CLASS
+: 1735390297:0;vi config.py
+: 1735397110:0;reboot
+: 1735397331:0;sudo systemctl restart bluetooth\
+
+: 1735397355:0;sudo nvim /etc/bluetooth/main.conf\
+
+: 1735397429:0;sudo systemctl restart bluetooth\
+
+: 1735397440:0;sudo pacman -S bluez bluez-utils
+: 1735397450:0;sudo systemctl restart bluetooth
+: 1735397464:0;sudo nano /etc/bluetooth/main.conf\
+
+: 1735397473:0;sudo nvim  /etc/bluetooth/main.conf\
+
+: 1735397563:0;sudo pacman -S linux linux-headers\
+
+: 1735397751:0;sudo pacman -S steam game-devices-udev
+: 1735397772:0;yay -S game-devices-udev
+: 1735404249:0;llsmod | grep bluetooth\
+
+: 1735404259:0;lsmod | grep bluetooth\
+
+: 1735404292:0;sudo modprobe -r btusb
+: 1735404298:0;sudo modprobe btusb
+: 1735405735:0;feh --bg-fill --randomize ~/wallpaper/*
+: 1735407651:0;sudo pacman -Syyu
+: 1735407936:0;sudo pacman -S linux-headers\
+
+: 1735470101:0;bluetoothctl\
+
+: 1735473029:0;sudo pacman -Syyu && yay
+: 1735473259:0;vi
+: 1735473281:0;l
+: 1735473305:0;rm \\ 
+: 1735473322:0;l
+: 1735473331:0;rm -r \\ 
+: 1735473334:0;l
+: 1735473351:0;rm -r \\ 
+: 1735473361:0;l
+: 1735473364:0;ll
+: 1735473366:0;vi
+: 1735473417:0;kill 1338
+: 1735473425:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 8x1+1970+4
+: 1735473438:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 8x1+1950+4
+: 1735473447:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 8x1+1900+4
+: 1735473456:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 8x1+1880+4
+: 1735473461:0;stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 8x1+1885+4
+: 1735473536:0;reboot
+: 1735481743:0;poweroff
+: 1735828738:0;sudo pacman -Syyu && yay
+: 1735832028:0;dotfiles saus
+: 1735832032:0;dotfiles stsus
+: 1735832036:0;dotfiles status
+: 1735832077:0;cd
+: 1735832099:0;dam .config/nvim
+: 1735832105:0;dam .config/omz
+: 1735832117:0;dam .config/qtile
+: 1735832124:0;dam .xinitrc
+: 1735832128:0;dam .zshrc
+: 1735832137:0;dotfiles push
+: 1735832150:0;dotfiles status
+: 1735906031:0;sudo pacman -Syyu && yay
+: 1736513619:0;feh --bg-fill --randomize ~/wallpaper/*
+: 1736518588:0;fd pro
+: 1736518599:0;fd rc
+: 1736518612:0;fd zsh
+: 1736518716:0;fd --hidden rc
+: 1736518734:0;fd --hidden zshrc
+: 1736518746:0;fd --hidden zshrc | fzf
+: 1736518761:0;vi
+: 1736521960:0;fd App
+: 1736521965:0;fd app
+: 1736521981:0;fd Bro
+: 1736521992:0;L
+: 1736521995:0;l;
+: 1736522038:0;cd .local
+: 1736522039:0;l
+: 1736522041:0;cd share
+: 1736522045:0;l
+: 1736522056:0;cd Steam
+: 1736522064:0;fd a
+: 1736522076:0;fd Bro
+: 1736522085:0;l
+: 1736522159:0;steamapps
+: 1736522160:0;l
+: 1736522181:0;cd ..
+: 1736522187:0;cd steam
+: 1736522188:0;l
+: 1736522193:0;cd games
+: 1736522195:0;l
+: 1736522199:0;cd ../..
+: 1736522200:0;l
+: 1736522250:0;fd Roaming
+: 1736522290:0;fd Brotato
+: 1736522320:0;fd mod_user_profiles.json
+: 1736522334:0;fd mod_user_profiles.json | vi
+: 1736522354:0;vi steamapps/compatdata/1942280/pfx/drive_c/users/steamuser/AppData/Roaming/Brotato/mod_user_profiles.json\
+
+: 1736522404:0;fzf mod_user_profiles.json
+: 1736522413:0;fzf ./mod_user_profiles.json
+: 1736522424:0;fzf 
+: 1736773250:0;sudo pacman -Syyu && yay
+: 1736940731:0;cd
+: 1736940734:0;ls
+: 1736940736:0;l
+: 1737211033:0;sudo pacman -Syyu && yay
+: 1737730631:0;systemctl hibernate
+: 1738231569:0;sudo pacman -Syyu && yay
+: 1738763352:0;dotfiles status
+: 1738763366:0;sudo pacman -Syyu && yay
+: 1738853788:0;feh --bg-fill --randomize ~/wallpaper/*
+: 1739535318:0;sudo pacman -Syyu && yay
+: 1740580895:0;clear
+: 1740910858:0;sudo pacman -Syyu && yay
+: 1741260800:0;bluetoothctl\
+
+: 1741260847:0;sudo systemctl enable --now bluetooth\
+
+: 1741260909:0;sudo pacman -Syyu && yay
+: 1741261138:0;dam
+: 1741261142:0;dam .zshrc
+: 1741261158:0;dotfiles status
+: 1741261840:0;bluetoothctl power on\
+
+: 1741264083:0;sudo pacman -Syyu && yay
+: 1741342390:0;bluetoothctl power on\
+
+: 1741358237:0;sudo pacman -Syyu && yay
+: 1741429451:0;bluetoothctl power on\
+
+: 1741780222:0;sudo pacman -Syyu && yay
+: 1741859924:0;bluetoothctl power on\
+
+: 1741946845:0;sudo pacman -Syyu && yay
+: 1741947384:0;reboot
+: 1741947447:0;bluetoothctl power on\
+
+: 1741956603:0;sudo pacman -Syyu && yay
+: 1741956674:0;kitty
+: 1741956912:0;clear
+: 1742043217:0;bluetoothctl power on\
+
+: 1742380220:0;sudo pacman -Syyu && yay
+: 1742466562:0;nmtui
+: 1742466591:0;sudo pacman -Syyu && yay
+: 1742466626:0;bluetoothctl power on\
+
+: 1742480137:0;sudio \ 
+: 1742480140:0;sudo pacman -Syyu && yay
+: 1742480157:0;reboot
+: 1742480222:0;sudo pacman -Syyu && yay
+: 1742480402:0;sudo rm /var/lib/pacman/db.lck
+: 1742480405:0;sudo pacman -Syyu && yay
+: 1742640485:0;bluetoothctl power on\
+
+: 1742984922:0;sudo pacman -Syyu && yay
+: 1742987878:0;btop
+: 1742989184:0;ip show
+: 1742989194:0;ip addr
+: 1742989241:0;ip addr | grep inet
+: 1743071364:0;bluetoothctl power on\\
+
+: 1743071391:0;sudo pacman -Syyu && yay
+: 1743156720:0;bluetoothctl power on\\
+
+: 1743242823:0;bluetoothctl power on\
+
+: 1743510252:0;sudo pacman -S obsidian
+: 1743511907:0;z q
+: 1743511917:0;nvi
+: 1743511922:0;vim
+: 1743511931:0;nvim
+: 1743512080:0;reboot
+: 1743512569:0;z q
+: 1743512572:0;nvim
+: 1743512656:0;sudo pacman -Syyu && yay
+: 1743512733:0;reboot
+: 1743512832:0;nvim
+: 1743512919:0;z wo
+: 1743512922:0;l
+: 1743512929:0;z q
+: 1743512935:0;nvim
+: 1743512957:0;t
+: 1743512959:0;;
+: 1743512960:0;l
+: 1743512980:0;z /home/wang/.config
+: 1743512981:0;l
+: 1743513033:0;cd dconf
+: 1743513034:0;l
+: 1743513040:0;cd
+: 1743513055:0;z w
+: 1743513056:0;l
+: 1743513065:0;cd git
+: 1743513065:0;l
+: 1743513075:0;cd
+: 1743513082:0;cd .con
+: 1743513087:0;cd .config
+: 1743513088:0;l
+: 1743513112:0;nvim
+: 1743513152:0;cd
+: 1743513160:0;bat .zshrc
+: 1743513182:0;z q
+: 1743513195:0;bat autostart.sh
+: 1743513232:0;cd ~/.config
+: 1743513243:0;nvim picom.conf
+: 1743513623:0;reboot
+: 1743513720:0;nvim picom.conf
+: 1743514070:0;reboot
+: 1743514166:0;nvim picom.conf
+: 1743514306:0;xprop
+: 1743514387:0;xprop | grep CLASS
+: 1743514438:0;xprop | grep _NET_WM_STATE\
+
+: 1743514671:0;reboot
+: 1743514888:0;nvim picom.conf
+: 1743515027:0;xprop | grep _NET_WM_STATE\
+
+: 1743515527:0;killall picom
+: 1743515532:0;picom --experimental-backends -b
+: 1743515550:0;bat qtile/autostart.sh
+: 1743515564:0;picom --config ~/.config/picom.conf  >> /dev/null 2>&1 &
+: 1743515628:0;nvim picom.conf
+: 1743515755:0;killall picom
+: 1743515758:0;picom --config ~/.config/picom.conf  >> /dev/null 2>&1 &
+: 1743515852:0;reboot
+: 1743515944:0;nvim picom.conf
+: 1743516420:0;killall picom
+: 1743516423:0;picom --config ~/.config/picom.conf  >> /dev/null 2>&1 &
+: 1743516434:0;reboot
+: 1743516496:0;nvim picom.conf
+: 1743516672:0;picom --log-level debug
+: 1743516733:0;nvim picom.conf
+: 1743517913:0;reboot
+: 1743517977:0;nvim picom.conf
+: 1743518021:0;picom --log-level debug
+: 1743518080:0;nvim picom.conf
+: 1743518143:0;cat ~/.xinitrc | grep picom
+: 1743518149:0;cat ~/.xprofile | grep picom
+: 1743518160:0;cat ~/.config/i3/config | grep picom
+: 1743518166:0;cat ~/.config/bspwm/bspwmrc | grep picom
+: 1743518245:0;sudo pacman -Syyu && yay
+: 1743518362:0;xprop | grep _NET_WM_STATE\
+
+: 1743518389:0;xprop \
+
+: 1743518900:0;nvim picom.conf
+: 1743519144:0;xprop
+: 1743519220:0;xprop | grep _NET_WM_STATE\
+
+: 1743519253:0;xprop \
+
+: 1743589392:0;bluetoothctl power on\
+
+: 1743589400:0;sudo pacman -Syyu && yay
+: 1743589598:0;sudo pacman -Syyu && yay --noconfirm
+: 1743589798:0;dotfiles status
+: 1743589838:0;dam picom.conf
+: 1743589854:0;dam qtile/config.py
+: 1743589865:0;dotfiles status
+: 1743589892:0;dam omz/cache/currentdir
+: 1743589910:0;dam qtile/__pycache__/config.cpython-313.pyc
+: 1743591135:0;picom --log-level debug
+: 1743595240:0;sudo pacman -Syyu && yay --noconfirm
+: 1743603393:0;poweroff
+: 1743674898:0;bluetoothctl power on\
+
+: 1743674921:0;cd
+: 1743674943:0;sudo pacman -Syyu && yay --noconfirm
+: 1743674966:0;sudo pacman -Syyu --noconfirm && yay --noconfirm
+: 1743676805:0;z /var/lib/libvirt/images
+: 1743676806:0;l
+: 1743677051:0;rm manjaro-kde-24.1.0-241001-linux610.iso
+: 1743677054:0;l
+: 1743677060:0;sudo rm manjaro-kde-24.1.0-241001-linux610.iso
+: 1743677061:0;l
+: 1743678030:0;sudo pacman -Syyu --noconfirm && yay --noconfirm
+: 1743688751:0;cd
+: 1743688761:0;xprop | grep _NET_WM_STATE\
+
+: 1743688775:0;xprop \
+
+: 1743689248:0;xprop | grep _NET_WM_STATE\
+
+: 1743689288:0;poweroff
+: 1743761250:0;bluetoothctl power on\
+
+: 1743761267:0;sudo pacman -Syyu --noconfirm && yay --noconfirm
+: 1743767716:0;dotfiles status
+: 1743768154:0;ip link
+: 1743768204:0;ip show
+: 1743768207:0;ip 
+: 1743768213:0;ip addr
+: 1743773955:0;sudo pacman -S powertop
+: 1743773963:0;powertop
+: 1743773968:0;sudo powertop
+: 1743774029:0;sudo powertop -t 30
+: 1743777925:0;poweroff
+: 1743848577:0;sudo pacman -Syyu --noconfirm && yay --noconfirm
+: 1743854022:0;sudo pacman -Syyu --noconfirm && yay --noconfirm\ 
+: 1743854025:0;sudo pacman -Syyu --noconfirm && yay --noconfirm
+: 1743870816:0;poweroff
+: 1744121991:0;yay -S lazydocker
+: 1744122114:0;lazydocker
+: 1744122711:0;docker ps
+: 1744123384:0;docker run -d \\
+  --name yacht \\
+  -p 8000:8000 \\
+  -v /var/run/docker.sock:/var/run/docker.sock \\
+  -v yacht:/config \\
+  selfhostedpro/yacht
+: 1744123753:0;docker exec -it yacht sh
+: 1744123924:0;docker run -d \\
+  --name yacht \\
+  -p 8001:8000 \\
+  -v /var/run/docker.sock:/var/run/docker.sock \\
+  -v yacht:/config \\
+  selfhostedpro/yacht\
+
+: 1744124195:0;docker volume create portainer_data\
+\
+docker run -d \\
+  -p 9000:9000 \\
+  -p 8000:8000 \\
+  --name portainer \\
+  --restart=always \\
+  -v /var/run/docker.sock:/var/run/docker.sock \\
+  -v portainer_data:/data \\
+  portainer/portainer-ce\
+
+: 1744124394:0;sudo pacman -Syyu --noconfirm && yay --noconfirm
+: 1744125610:0;lazydocker
+: 1744126163:0;docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:lts
+: 1744126413:0;lazydocker
+: 1744126425:0;docker run -d \\
+  -p 9000:9000 \\
+  -p 8000:8000 \\
+  --name portainer \\
+  --restart=always \\
+  -v /var/run/docker.sock:/var/run/docker.sock \\
+  -v portainer_data:/data \\
+  portainer/portainer-ce\
+
+: 1744126434:0;lazydocker
+: 1744197847:0;sudo pacman -Syyu --noconfirm && yay --noconfirm
+: 1744202906:0;btop
+: 1744203461:0;lspci
+: 1744203561:0;lspci | grep VGA
+: 1744205347:0;netctl
+: 1744205425:0;cd /etc/NetworkManager/system-connections
+: 1744205433:0;sudo cd /etc/NetworkManager/system-connections
+: 1744205481:0;sudo ls /etc/NetworkManager/system-connections
+: 1744205637:0;sudo vim /etc/NetworkManager/system-connections/Redmi K30S Ultra.nmconnection
+: 1744205671:0;sudo ls /etc/NetworkManager/system-connections/
+: 1744212303:0;kill 1353
+: 1744214077:0;lsusb
+: 1744214216:0;watch -n 1 lsusb
+: 1744214595:0;date
+: 1744214613:0;date -R
+: 1744216747:0;kitty
+: 1744217674:0;sudo pacman -Syyu --noconfirm && yay --noconfirm
+: 1744217693:0;st
+: 1744217704:0;sudo pacman -Syyu --noconfirm && yay --noconfirm
+: 1744217731:0;kitty
+: 1744217742:0;sudo pacman -Syyu --noconfirm && yay --noconfirm
+: 1744281984:0;lazydocker
+: 1744286694:0;sudo pacman -Syyu --noconfirm && yay --noconfirm
+: 1744287098:0;z q
+: 1744287106:0;nvim
+: 1744287377:0;l
+: 1744287386:0;lf
+: 1744287395:0;nvim
+: 1744287723:0;cd
+: 1744287736:0;cd .config/kitty
+: 1744287737:0;l
+: 1744287966:0;btop
+: 1744291061:0;dotfiles status
+: 1744295431:0;z q'
+: 1744295432:0;z q
+: 1744295437:0;nvim
+: 1744297445:0;nvim config.py
+: 1744297961:0;qtile shell
+: 1744299045:0;xprop
+: 1744299268:0;nvim config.py
+: 1744299413:0;qtile shell
+: 1744301058:0;poweroff
+: 1744367898:0;ranger
+: 1744374228:0;fcitx5 -r
+: 1744375492:0;pacman -S fcitx5-breeze
+: 1744375498:0;sudo pacman -S fcitx5-breeze
+: 1744375709:0;sudo pacman -Rns fcitx5-material-color
+: 1744376176:0;一
+: 1744376261:0;sudo pacman -Syyu --noconfirm && yay --noconfirm
+: 1744378836:0;feh --bg-fill --randomize ~/wallpaper/*
+: 1744379021:0;cd
+: 1744379028:0;dotfiles status
+: 1744379060:0;dam qtile/config.py
+: 1744379078:0;dam .config/qtile/config.py\
+
+: 1744379087:0;dam .config/qtile/__pycache__/config.cpython-313.pyc\
+
+: 1744379095:0;dam .config/omz/cache/currentdir
+: 1744379107:0;dotfiles status
+: 1744379129:0;feh --bg-fill --randomize ~/wallpaper/*
+: 1744381354:0;sudo pacman -S python-dbus-fast
+: 1744382317:0;ip addr
+: 1744385258:0;st
+: 1744385825:0;kitty
+: 1744385858:0;kitty +kitty themes
+: 1744385870:0;kitty +kitten themes
+: 1744386421:0;z q
+: 1744386434:0;ranger
+: 1744386468:0;kitty +kitty themes
+: 1744386491:0;cd .config/kitty
+: 1744386500:0;cd
+: 1744386505:0;cd .config/kitty
+: 1744386506:0;l
+: 1744386516:0;rm kitty.conf
+: 1744386523:0;kitty +kitty themes
+: 1744386531:0;rm current-theme.conf
+: 1744386534:0;kitty +kitty themes
+: 1744386733:0;kitty
+: 1744386737:0;kitty +kitty themes
+: 1744386749:0;l
+: 1744386750:0;ls
+: 1744386752:0;l
+: 1744386755:0;lll
+: 1744386760:0;l
+: 1744386766:0;ll
+: 1744386770:0;lll
+: 1744386771:0;ll
+: 1744386773:0;l
+: 1744386793:0;kitty +kitty themes
+: 1744386895:0;sudo pacman -Rns kitty
+: 1744386912:0;sudo pacman -S kitty
+: 1744386924:0;kitty
+: 1744386930:0;kitty +kitty themes
+: 1744455906:0;kitty --version
+: 1744455939:0;kitten themes
+: 1744456025:0;kitty
+: 1744456039:0;kitten themes
+: 1744456075:0;ll
+: 1744456076:0;l
+: 1744456077:0;ll
+: 1744456107:0;nvim current-theme.conf
+: 1744456114:0;nvim kitty.conf
+: 1744456368:0;cd
+: 1744456374:0;dotfiles push
+: 1744456386:0;dotfiles status
+: 1744456415:0;l
+: 1744456431:0;ll
+: 1744456436:0;l
+: 1744456545:0;glll
+: 1744456578:0;z q
+: 1744456582:0;ranger
+: 1744458114:0;nvim
+: 1744458369:0;exit
+: 1744458375:0;xit
+: 1744458377:0;exit
+: 1744460981:0;z /home/wang/.config/kitty
+: 1744460982:0;l
+: 1744460985:0;nvim
+: 1744461412:0;exit
+: 1744461534:0;kitty
+: 1744461539:0;nvim
+: 1744462693:0;kitty
+: 1744462718:0;ranger
+: 1744462744:0;kitty
+: 1744462757:0;nvim kitty.conf
+: 1744462797:0;z q
+: 1744462804:0;nvim config.py
+: 1744463086:0;kitty list-fonts
+: 1744463149:0;kitty list-fonts --JetBrainsMono
+: 1744463191:0;nvim config.py\ 
+: 1744463193:0;nvim config.py
+: 1744463330:0;kitty
+: 1744463353:0;st
+: 1744464394:0;kitty
+: 1744464435:0;sudo pacman -Syyu --noconfirm && yay --noconfirm
+: 1744464755:0;kitty
+: 1744464858:0;z kitty
+: 1744464862:0;ranger
+: 1744465091:0;kitty
+: 1744465135:0;ranger
+: 1744465186:0;kitty
+: 1744465205:0;ranger
+: 1744465254:0;kitty
+: 1744465261:0;ranger
+: 1744465396:0;kitty
+: 1744465430:0;ranger
+: 1744465444:0;kitty
+: 1744465508:0;ranger
+: 1744466038:0;kitty
+: 1744466249:0;ranger
+: 1744466661:0;sudo pacman -Syyu --noconfirm && yay --noconfirm
+: 1744466692:0;kitten themes
+: 1744466738:0;kitty
+: 1744466744:0;sudo pacman -Syyu --noconfirm && yay --noconfirm
+: 1744466779:0;nvim
+: 1744467560:0;kitty
+: 1744467569:0;z q
+: 1744467572:0;nvim
+: 1744467698:0;cd
+: 1744467710:0;ranger
+: 1744467861:0;z q
+: 1744467873:0;nvim
+: 1744469142:0;kitty
+: 1744469152:0;nvim config.py
+: 1744469163:0;z q
+: 1744469172:0;cd
+: 1744469184:0;nvim .zshrc
+: 1744469363:0;vv
+: 1744469369:0;reboot
+: 1744469907:0;vv
+: 1744469915:0;nvim .zshrc
+: 1744469986:0;reboot
+: 1744470081:0;vv
+: 1744470130:0;z q
+: 1744470134:0;vv
+: 1744470541:0;z k
+: 1744470544:0;vv
+: 1744470588:0;sudo pacman -Syyu --noconfirm && yay --noconfirm
+: 1744472087:0;z q
+: 1744472246:0;vv
+: 1744472461:0;reboot
+: 1744472521:0;vv
+: 1744472554:0;z q
+: 1744472564:0;vv config.py
+: 1744472591:0;reboot
+: 1744472649:0;vv config.py
+: 1744641625:0;z /home/wang/.config
+: 1744641659:0;vv picom.conf 
+: 1744643495:0;reboot
+: 1744643610:0;vv picom.conf 
+: 1744643713:0;vv
+: 1744643822:0;env | grep -i im\
+
+: 1744643846:0;fcitx5-diagnose\
+
+: 1744643941:0;GTK_IM_MODULE=fcitx QT_IM_MODULE=fcitx XMODIFIERS="@im=fcitx" kitty\
+
+: 1744643960:0;st
+: 1744643999:0;env | grep -i im\
+
+: 1744644057:0;cd
+: 1744644060:0;vv .zshrc
+: 1744644097:0;reboot
+: 1744644208:0;vv .config/picom.conf 
+: 1744644533:0;xprop | grep WM_CLASS\
+
+: 1744645013:0;z q 
+: 1744645023:0;vv config.py
+: 1744645548:0;cd
+: 1744645558:0;vv .config/picom.conf 
+: 1744645578:0;reboot
+: 1744645651:0;vv .config/picom.conf 
+: 1744645671:0;reboot
+: 1744645829:0;xprop
+: 1744645922:0;vv .config/picom.conf 
+: 1744646187:0;reboot
+: 1744646263:0;vv .config/qtile/config.py 
+: 1744648277:0;poweroff
+: 1744712279:0;feh --bg-fill --randomize ~/wallpaper/*
+: 1744712776:0;kitty --config /dev/null --debug-input
+: 1744712955:0;vv ./.config/kitty .config/kitty/kitty.conf 
+: 1744713032:0;z /home/wang/.config/kitty
+: 1744713033:0;l
+: 1744713041:0;vv kitty.conf
+: 1744713065:0;s
+: 1744713073:0;vv
+: 1744713604:0;vv ~/.config/fcitx5/conf/classicui.conf
+: 1744713733:0;cd
+: 1744713737:0;vv .zshrc
+: 1744713923:0;reboot
+: 1744713995:0;vv .zshrc
+: 1744714287:0;reboot
+: 1744714490:0;env GLFW_IM_MODULE=fcitx kitty
+: 1744714504:0;kitty --config /dev/null --debug-input
+: 1744714608:0;echo $XMODIFIERS
+: 1744714623:0;echo $XDG_SESSION_TYPE 
+: 1744714647:0;kitty --startup=x11
+: 1744714694:0;echo $XDG_SESSION_TYPE
+: 1744714797:0;kitty --config /dev/null --debug-input
+: 1744714814:0;echo $XDG_SESSION_TYPE
+: 1744714914:0;vv .zshrc
+: 1744714989:0;reboot
+: 1744715270:0;cd .config
+: 1744715284:0;cd
+: 1744715304:0;cd .config
+: 1744715323:0;vv kitty/kitty.conf
+: 1744715345:0;z /home/wang/.config/kitty
+: 1744715347:0;vv
+: 1744715371:0;vv kitty.conf
+: 1744715381:0;sudo pacman -Syyu --noconfirm && yay --noconfirm
+: 1744715632:0;feh --bg-fill --randomize ~/wallpaper/*
+: 1744715680:0;dotfiles status
+: 1744715723:0;dam ~/.zshrc
+: 1744715742:0;dotfiles status
+: 1744715750:0;cd
+: 1744715753:0;dotfiles status
+: 1744715765:0;dam .config/qtile/config.py
+: 1744715773:0;dam .config/qtile/__pycache__/config.cpython-313.pyc
+: 1744715783:0;dam .config/picom.conf
+: 1744715794:0;dotfiles status
+: 1744715810:0;sudo pacman -S lazygit
+: 1744715824:0;lazygit
+: 1744716014:0;cd .dotfiles
+: 1744716024:0;lazygit
+: 1744716038:0;glll
+: 1744716122:0;cd
+: 1744716242:0;dotfiles ls-files
+: 1744716971:0;cd workspace
+: 1744716975:0;cd git
+: 1744716978:0;cd fzf
+: 1744716982:0;lazygit
+: 1744717648:0;l
+: 1744717659:0;lazygit
+: 1744717858:0;cd
+: 1744717859:0;lazygit --git-dir=$HOME/.dotfiles --work-tree=$HOME\
+
+: 1744717987:0;dotfiles status
+: 1744718035:0;lazygit --git-dir=$HOME/.dotfiles --work-tree=$HOME\
+
+: 1744718317:0;cd .config
+: 1744718320:0;lazygit --git-dir=$HOME/.dotfiles --work-tree=$HOME\
+
+: 1744718377:0;cd kitty
+: 1744718381:0;lazygit --git-dir=$HOME/.dotfiles --work-tree=$HOME\
+
+: 1744718438:0;cd
+: 1744718446:0;lazygit --git-dir=$HOME/.dotfiles --work-tree=$HOME
+: 1744718609:0;lazygit --git-dir=$HOME/.dotfiles --work-tree=$HOME\
+
+: 1744718795:0;touch test-dotfile.txt 
+: 1744718802:0;lazygit --git-dir=$HOME/.dotfiles --work-tree=$HOME\
+
+: 1744718910:0;l
+: 1744718928:0;rm test-dotfile.txt
+: 1744718932:0;ll
+: 1744718935:0;lll
+: 1744718936:0;l
+: 1744718975:0;cd workspace
+: 1744718981:0;cd git
+: 1744718983:0;l
+: 1744718985:0;cd st
+: 1744718994:0;lazygit
+: 1744719121:0;lazygit --git-dir=$HOME/.dotfiles --work-tree=$HOME\
+
+: 1744719387:0;cd
+: 1744719508:0;dotfiles add ~/.config/kitty/kitty.conf 
+: 1744719520:0;dotfiles status
+: 1744719562:0;lazygit --git-dir=$HOME/.dotfiles --work-tree=$HOME\
+
+: 1744719610:0;dotfiles status
+: 1744719616:0;lazygit --git-dir=$HOME/.dotfiles --work-tree=$HOME\
+
+: 1744719650:0;dotfiles status
+: 1744719663:0;dam .config/kitty/kitty.conf
+: 1744719674:0;dam .config/omz/cache/currentdir
+: 1744719678:0;dotfiles status
+: 1744719724:0;lazygit --git-dir=$HOME/.dotfiles --work-tree=$HOME\
+
+: 1744720730:0;vv .zshrc
+: 1744721090:0;dotfiles status
+: 1744721128:0;dam .zshrc
+: 1744721219:0;lazygit --git-dir=$HOME/.dotfiles --work-tree=$HOME\
+
+: 1744721754:0;dotfiles push
+: 1744721791:0;lazygit --git-dir=$HOME/.dotfiles --work-tree=$HOME\
+
+: 1744722755:0;vv .zshrc
+: 1744722788:0;lazygit --git-dir=$HOME/.dotfiles --work-tree=$HOME\
+
+: 1744722968:0;vv .zshrc
+: 1744722988:0;dotfiles status
+: 1744722997:0;rr
+: 1744726004:0;sudo pacman -Syyu --noconfirm && yay --noconfirm
+: 1744726248:0;z q
+: 1744726250:0;rr
+: 1744726641:0;feh --bg-fill --randomize ~/wallpaper/*
+: 1744726910:0;pacman -Qi google-chrome | grep -E "qt|gtk"
+: 1744726975:0;pacman -Qi fcitx5 | grep -E "qt|gtk"
+: 1744727000:0;pacman -Qi telegram-desktop | grep -E "qt|gtk"
+: 1744727041:0;feh --bg-fill --randomize ~/wallpaper/*
+: 1744729722:0;poweroff
+: 1744798124:0;feh --bg-fill --randomize ~/wallpaper/*
+: 1744798158:0;sudo pacman -Syyu --noconfirm && yay --noconfirm
+: 1744803998:0;kill 1424
+: 1744805496:0;neofetch
+: 1744805551:0;pacman -Qs clip | grep -iE "clip|copy|paste|xsel|xclip|wl-clipboard"
+: 1744805600:0;pacman -Qq | grep -E 'xclip|xsel|wl-clipboard|copyq|greenclip|clipman'
+: 1744805731:0;d
+: 1744805733:0;cd
+: 1744805737:0;dd
+: 1744805745:0;d
+: 1744805757:0;l
+: 1744806356:0;sudo pacman -S yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide imagemagick
+: 1744806428:0;yay -S resvg
+: 1744806960:0;yazi
+: 1744809841:0;fzf ~/
+: 1744809846:0;fzf
+: 1744810403:0;yazi
+: 1744811986:0;xprop
+: 1744812828:0;lazygit --git-dir=$HOME/.dotfiles --work-tree=$HOME\
+
+: 1744815075:0;yazi
+: 1744817091:0;z q
+: 1744817109:0;ll
+: 1744817114:0;rr
+: 1744817125:0;yazi
+: 1744817156:0;cd 
+: 1744817200:0;poweroff
+: 1745057819:0;yazi
+: 1745067510:0;sudo pacman -Syyu --noconfirm && yay --noconfirm
+: 1745067540:0;z q
+: 1745067544:0;yazi
+: 1745067780:0;sudo pacman -Syyu --noconfirm && yay --noconfirm
+: 1745067801:0;yazi
+: 1745067932:0;lazygit --git-dir=$HOME/.dotfiles --work-tree=$HOME\
+
+: 1745068291:0;zoxide
+: 1745068297:0;z
+: 1745068299:0;z q
+: 1745068304:0;cd
+: 1745068306:0;ya
+: 1745068317:0;yazi
+: 1745068345:0;vv .zshrc
+: 1745068365:0;lazygit --git-dir=$HOME/.dotfiles --work-tree=$HOME\
+
+: 1745068622:0;zoxide
+: 1745068816:0;yy
+: 1745068818:0;yazi
+: 1745069009:0;z -l | awk '{print $2}' > z_lua_paths.txt
+: 1745069015:0;while read -r path; do zoxide add "$path"; done < z_lua_paths.txt
+: 1745069041:0;zoxide
+: 1745069091:0;while read -r path; do zoxide add "$path"; done < z_lua_paths.txt
+: 1745069126:0;yazi
+: 1745069180:0;vv .zshrc
+: 1745069291:0;lazygit --git-dir=$HOME/.dotfiles --work-tree=$HOME\
+
+: 1745069738:0;z /home/wang/.config
+: 1745069755:0;mkdir yazi
+: 1745069759:0;cd yazi
+: 1745069780:0;vv yazi.toml
+: 1745069828:0;yazi
+: 1745069895:0;vv yazi.toml
+: 1745069994:0;yazi
+: 1745070215:0;vv init.lua
+: 1745070308:0;yazi
+: 1745071261:0;cd
+: 1745071595:0;reboot
+: 1745071705:0;feh --bg-fill --randomize ~/wallpaper/*
+: 1745071771:0;yy
+: 1745071866:0;y
+: 1745071874:0;yy
+: 1745071878:0;y
+: 1745071908:0;cd
+: 1745071909:0;y
+: 1745072013:0;cd
+: 1745072080:0;y
+: 1745072381:0;z q
+: 1745072647:0;y
+: 1745073795:0;clear
+: 1745073811:0;y
+: 1745074520:0;cd
+: 1745074651:0;yay -S visual-studio-code-bin
+: 1745075111:0;y
+: 1745075645:0;z q
+: 1745075657:0;code config.py
+: 1745075921:0;vv config.py
+: 1745077599:0;cd
+: 1745077603:0;y
+: 1745078268:0;vv .zshrc
+: 1745078813:0;reboot
+: 1745079022:0;y
+: 1745079071:0;cd .config/omz
+: 1745079073:0;y
+: 1745079462:0;poweroff
+: 1745478154:0;nmtui
+: 1745478484:0;y
+: 1745478741:0;eza
+: 1745478746:0;l
+: 1745478763:0;eza --tree
+: 1745478857:0;eza --git-ignore
+: 1745478874:0;eza --git-ignore --list-dirs
+: 1745478905:0;eza --git-ignore --icons
+: 1745478934:0;cd wallpaper
+: 1745478941:0;eza --git-ignore --icons
+: 1745478945:0;l
+: 1745478951:0;ls
+: 1745478958:0;eza --git-ignore --icons
+: 1745478994:0;ls
+: 1745479000:0;r
+: 1745479000:0;ls
+: 1745479004:0;y
+: 1745479104:0;cd
+: 1745483268:0;feh --bg-fill --randomize ~/wallpaper/*
+: 1745498857:0;sudo pacman -Syyu --noconfirm && yay --noconfirm
+: 1745500771:0;sudo pacman -S bluetui
+: 1745500782:0;bluetui
+: 1745501047:0;lazygit --git-dir=$HOME/.dotfiles --work-tree=$HOME\
+
+: 1745501662:0;lazydocker
+: 1745502883:0;vv .zshrc
+: 1745503456:0;y
+: 1745503460:0;yy
+: 1745503842:0;z /home/wang/.config/qtile
+: 1745503846:0;z c
+: 1745503855:0;cd omz
+: 1745503857:0;y
+: 1745504225:0;cd
+: 1745504230:0;cd ~/wallpaper
+: 1745504886:0;clear
+: 1745504894:0;cd
+: 1745508873:0;z q
+: 1745508889:0;cd
+: 1745509530:0;cd **
+: 1745576169:0;bluetui
+: 1745576308:0;vv .zshrc
+: 1745576403:0;tldr
+: 1745576506:0;tldr kitty
+: 1745576570:0;dotgit
+: 1745576647:0;y
+: 1745576693:0;feh --bg-fill --randomize ~/wallpaper/*
+: 1745580364:0;sudo pacman -Syyu --noconfirm && yay --noconfirm
+: 1745583859:0;cd /etc/NetworkManager/system-connections
+: 1745583863:0;cd /etc/NetworkManager
+: 1745583869:0;cd
+: 1745586655:0;y
+: 1745586981:0;fc-list | grep "JetBrainsMono Nerd Font"
+: 1745587431:0;btop
+: 1745587481:0;reboot
+: 1745587831:0;bluetui
+: 1745587851:0;sudo bluetui
+: 1745587973:0;rfkill lis
+: 1745587986:0;rfkill list
+: 1745588038:0;sudo rfkill unblock bluetooth
+: 1745588188:0;z q
+: 1745588190:0;l
+: 1745588194:0;y
+: 1745588200:0;l
+: 1745588207:0;eza --git-ignore --icons
+: 1745588291:0;rm auto-connect-bluetooth.sh
+: 1745588295:0;eza --git-ignore --icons
+: 1745588302:0;vv autostart.sh
+: 1745588576:0;rfkill unblock bluetooth
+: 1745588863:0;y
+: 1745588985:0;reboot
+: 1745589101:0;rfkill unblock bluetooth
+: 1745589116:0;z q
+: 1745589129:0;vv
+: 1745589207:0;reboot
+: 1745589381:0;cd
+: 1745589383:0;y
+: 1745590110:0;z r
+: 1745590115:0;z /home/wang/.config/rofi
+: 1745590122:0;vv themes/mine.rasi
+: 1745590692:0;rofi -show workspaces
+: 1745590707:0;rofi -show window -group-by app
+: 1745590735:0;rofi -show window -kb-accept-entry '!Alt-Tab' -kb-row-down 'Alt-Tab'
+: 1745591106:0;z q
+: 1745591133:0;vv config.py
+: 1745592717:0;rofi -help | grep theme
+: 1745592808:0;vv config.py
+: 1745592893:0;export ROFI_THEME="~/.config/rofi/themes/mine.rasi"
+: 1745592989:0;cd
+: 1745593002:0;vv .zshrc
+: 1745593046:0;source ~/.bashrc
+: 1745593053:0;reboot
+: 1745593124:0;y
+: 1745593138:0;vv .zshrc
+: 1745593177:0;z /home/wang/.config/rofi
+: 1745593184:0;l
+: 1745593191:0;cd themes
+: 1745593192:0;l
+: 1745593202:0;rofi
+: 1745593238:0;rofi 
+: 1745593247:0;rofi run
+: 1745593261:0;rofi -run
+: 1745593274:0;rofi -show window -kb-accept-entry '!Alt-Tab' -kb-row-down 'Alt-Tab'
+: 1745593374:0;cd /usr/share/rofi/themes
+: 1745593375:0;l
+: 1745593691:0;cd
+: 1745593695:0;y
+: 1745593808:0;cd
+: 1745593820:0;yy
+: 1745593855:0;z q
+: 1745593867:0;vv config.py
+: 1745594053:0;z ro
+: 1745594058:0;r
+: 1745594058:0;z ro
+: 1745594068:0;y
+: 1745594226:0;reboot
+: 1745594338:0;vv themes/mine_win.rasi
+: 1745594475:0;rofi -show window -theme ~/.config/rofi/themes/mine.rasi
+: 1745594495:0;rofi -show window -theme ~/.config/rofi/themes/mine_win.rasi
+: 1745594688:0;rofi -show window -window-thumbnail
+: 1745594835:0;rofi -show workspaces
+: 1745594854:0;rofi -show window -group-by app
+: 1745594888:0;rofi -show window -window-thumbnail
+: 1745594998:0;bluetui
+: 1745669267:0;cd
+: 1745669269:0;l
+: 1745669271:0;ls
+: 1745669309:0;sudo pacman -S stow
+: 1745669331:0;mkdir dotfile
+: 1745669333:0;ls
+: 1745669486:0;cp dotfile dotfiles
+: 1745669533:0;mv dotfile dotfiles
+: 1745669535:0;ls
+: 1745669995:0;stow ?
+: 1745670005:0;stow -?
+: 1745670013:0;stow -help
+: 1745670512:0;cd dotfiles
+: 1745670532:0;r
+: 1745670532:0;cd dotfiles
+: 1745670534:0;r
+: 1745670534:0;cd dotfiles
+: 1745670538:0;yy
+: 1745670573:0;mkdir .config
+: 1745670576:0;pwd
+: 1745670584:0;l
+: 1745670601:0;cd
+: 1745670623:0;cp .xinitrc dotfiles
+: 1745670630:0;ls dotfiles
+: 1745670634:0;l dotfiles
+: 1745670647:0;cd dotfiles
+: 1745670685:0;bat .xinitrc
+: 1745670862:0;rm .config
+: 1745670867:0;rm -d .config
+: 1745670868:0;l
+: 1745670872:0;cd
+: 1745670874:0;l
+: 1745670880:0;cd dotfiles
+: 1745670887:0;stow 
+: 1745670898:0;stow -t ~ .
+: 1745671040:0;stow --adopt -t ~ .
+: 1745671066:0;stow -t ~ . --adopt
+: 1745671099:0;stow -t ~ --adopt
+: 1745671115:0;stow -t ~ . --adopt
+: 1745671120:0;yy
+: 1745671235:0;echo "" > 1.py
+: 1745671237:0;yy
+: 1745671246:0;stow -t ~ . --adopt
+: 1745671248:0;yy
+: 1745671280:0;rm 1.py
+: 1745671283:0;yy
+: 1745671321:0;y
+: 1745671337:0;z /home/wang/dotfiles
+: 1745671339:0;l
+: 1745671348:0;yy
+: 1745671389:0;mkdir .config
+: 1745671390:0;l
+: 1745671413:0;yy
+: 1745671456:0;cp ~/wallpaper ./
+: 1745671511:0;cp -r ~/wallpaper ./
+: 1745671520:0;ls wallpaper
+: 1745671524:0;ls
+: 1745671526:0;l
+: 1745671533:0;tree
+: 1745671596:0;cp ~/.zshrc ./
+: 1745671622:0;cp -R ~/.config/kitty ./
+: 1745671632:0;cp -R ~/.config/nvim ./
+: 1745671640:0;cp -R ~/.config/omz ./
+: 1745671649:0;cp -R ~/.config/qtile ./
+: 1745671661:0;cp -R ~/.config/rofi ./
+: 1745671671:0;cp -R ~/.config/dunst.conf ./
+: 1745671682:0;cp -R ~/.config/picom.conf ./
+: 1745671684:0;ls
+: 1745671694:0;l
+: 1745671730:0;cp -R ./dunst.conf .config
+: 1745671744:0;cp -R ./picom.conf .config
+: 1745671751:0;cp -R ./rofi .config
+: 1745671761:0;cp -R ./qtile .config
+: 1745671768:0;cp -R ./omz .config
+: 1745671776:0;cp -R ./nvim .config
+: 1745671783:0;cp -R ./kitty .config
+: 1745671785:0;l
+: 1745671835:0;rm -R kitty nvim omz qtile rofi dunst.conf picom.conf
+: 1745671836:0;l
+: 1745671859:0;ls
+: 1745671861:0;l
+: 1745671881:0;cd .config
+: 1745671882:0;l
+: 1745672021:0;cd
+: 1745672924:0;cd dotfiles
+: 1745672939:0;z q
+: 1745672941:0;vv
+: 1745673717:0;pactl set-sink-volume @DEFAULT_SINK@ +5%
+: 1745674523:0;amixer get Master
+: 1745675005:0;pactl list 2>/dev/null | grep -q "Source #" && echo "使烴� pamixer" || echo "使烴� amixer"
+: 1745675014:0;systemctl --user is-active pipewire pulseaudio 2>/dev/null && echo "使烴� pamixer" || echo "使烴� amixer"
+: 1745675221:0;pactl set-sink-volume @DEFAULT_SINK@ +5%
+: 1745675251:0;wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+
+: 1745675371:0;systemctl --user status pipewire pulseaudio 2>/dev/null\
+
+: 1745675869:0;cp config.py ~/dotfiles/.config
+: 1745675884:0;cd ~/dotfiles/.config/qtile
+: 1745675885:0;vv
+: 1745675940:0;ll
+: 1745675958:0;cd ..
+: 1745675960:0;l
+: 1745675979:0;mv config.py qtile
+: 1745675984:0;cd qtile
+: 1745675985:0;l
+: 1745675991:0;vv config.py
+: 1745676017:0;cd ~/dotfiles
+: 1745676025:0;stow -t ~ . --adopt
+: 1745676029:0;z q
+: 1745676040:0;y
+: 1745676145:0;yy
+: 1745676181:0;vv
+: 1745676185:0;yy
+: 1745676226:0;cd
+: 1745676262:0;sudo pacman -S wob
+: 1745676282:0;echo "50" > /tmp/wob.sock
+: 1745676293:0;wob
+: 1745676308:0;echo "50" > /tmp/wob.sock
+: 1745676329:0;vv ~/.config/wob/wob.ini
+: 1745676358:0;xinput
+: 1745676413:0;vv
+: 1745676434:0;yy
+: 1745676442:0;vv
+: 1745676558:0;cd
+: 1745676561:0;vv
+: 1745676664:0;vv .zshrc
+: 1745676765:0;cd dotfiles
+: 1745676772:0;bat .zshrc
+: 1745676787:0;vv .zshrc
+: 1745676802:0;bat .zshrc
+: 1745676835:0;vv .xinitrc
+: 1745676868:0;xrandr
+: 1745676920:0;vv
+: 1745676978:0;echo "50" > /tmp/wob.sock
+: 1745676988:0;/tmp/wob.sock
+: 1745677003:0;echo "50" > sock
+: 1745677092:0;echo "50" > wob
+: 1745677113:0;wob
+: 1745677463:0;sudo pacman -Syyu --noconfirm && yay --noconfirm
+: 1745677484:0;yy
+: 1745677512:0;cd
+: 1745677514:0;yy
+: 1745677547:0;vv .zshrc
+: 1745677568:0;y
+: 1745677585:0;yy
+: 1745677589:0;y
+: 1745677603:0;vv .zsh
+: 1745677614:0;cd
+: 1745677619:0;vv .zshrc
+: 1745677754:0;cd .dotfiles
+: 1745677755:0;l
+: 1745677811:0;cd
+: 1745677814:0;vv
+: 1745677953:0;cd .dotnet
+: 1745677954:0;l
+: 1745677958:0;y
+: 1745678016:0;cd
+: 1745678025:0;rm -rf .dotfiles
+: 1745678034:0;dotgit
+: 1745678373:0;cd dotfiles
+: 1745678384:0;git init
+: 1745678448:0;git add .
