@@ -1833,3 +1833,43 @@ docker run -d \\
 : 1745678373:0;cd dotfiles
 : 1745678384:0;git init
 : 1745678448:0;git add .
+: 1745678461:0;git commit -m "Initial commit: add basic dotfiles"
+: 1745678573:0;git remote add origin git@github.com:qq1442104999/dotfiles.git
+: 1745678608:0;git push -u origin main
+: 1745678687:0;git push -u origin master
+: 1745678785:0;git push -u origin main
+: 1745678868:0;git remote add origin https://github.com/qq1442104999/dotfiles.git
+: 1745678898:0;git remote -v
+: 1745678924:0;git remote remove origin
+: 1745678927:0;git remote -v
+: 1745678940:0;git remote add origin https://github.com/qq1442104999/dotfiles.git
+: 1745678946:0;git push -u origin main
+: 1745678961:0;git branch -M main 
+: 1745679259:0;git remote remove origin\
+
+: 1745679271:0;git remote -V
+: 1745679274:0;git remote -v
+: 1745679287:0;git remote set-url origin git@github.com:qq1442104999/dotfiles.git
+: 1745679317:0;git remote add origin https://github.com/qq1442104999/dotfiles.git
+: 1745679319:0;git remote set-url origin git@github.com:qq1442104999/dotfiles.git
+: 1745679325:0;git push -u origin main
+: 1745679422:0;git checkout main\
+
+: 1745679430:0;git branch -m main master
+: 1745679473:0;git push -u origin master
+: 1745679483:0;git push origin --delete main
+: 1745679642:0;[200~git fetch origin
+: 1745679647:0;git fetch origin
+: 1745679668:0;git branch -u origin/master master
+: 1745679708:0;lazygit
+: 1745679781:0;l
+: 1745679814:0;y
+: 1745679852:0;rm wob sock
+: 1745679853:0;l
+: 1745679856:0;y
+: 1745680070:0;stow -t ~ . --adopt --ignore="\.git|README\.md"
+: 1745680073:0;cd
+: 1745680110:0;vv .zshrc
+: 1745680231:0;lazygit
+: 1745680248:0;cd dotfiles
+: 1745680257:0;lazygit

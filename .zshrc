@@ -31,28 +31,6 @@ export TLDR_LANGUAGE="zh"
 #登陆自启动X
 [ -z $DISPLAY ] && [ $(tty) = "/dev/tty1" ] && startx
 
-#点文件上传
-dam() {
-  local gitdir=$HOME/.dotfiles
-  local worktree=$HOME
-  # 检查是否提供参数
-  if [[ -z "$*" ]]; then
-    echo "Usage: dam <files...>"
-    return 1
-  fi
-  # 添加文件
-  git --git-dir="$gitdir" --work-tree="$worktree" add "$@" || {
-    echo "Error: Failed to add files."
-    return 1
-  }
-  # 提交更改
-  git --git-dir="$gitdir" --work-tree="$worktree" commit -m "Updated files: $*" || {
-    echo "Error: Failed to commit changes."
-    return 1
-  }
-  echo "Successfully added and committed: $*"
-}
-
 #yazi文件浏览器退出 Yazi 时更改当前工作目录的功能
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
@@ -64,6 +42,5 @@ function y() {
 }
 
 #别称
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
-alias dotgit='lazygit --git-dir=$HOME/.dotfiles --work-tree=$HOME'
+alias dotfiles='stow -t ~ . --adopt --ignore="\.git|README\.md"'
 alias v='nvim'
