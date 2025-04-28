@@ -1,8 +1,10 @@
 # Created by newuser for 5.9
 
-#zsh的omz配置
+#fzf的默认环境变量
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-source ~/.config/omz/omz.zsh  
+
+#zsh的omz配置
+source ~/dotfiles/.config/omz/omz.zsh  
 export _OMZ_APPLY_PREEXEC_HOOK=true
 export _OMZ_APPLY_CHPWD_HOOK=true
 export _OMZ_APPLY_HISTORYBYFZF=true
@@ -27,6 +29,13 @@ export GTK_THEME=Breeze-Dark
 
 #tldr的中文配置
 export TLDR_LANGUAGE="zh"
+
+#zoxide的初始化
+eval "$(zoxide init zsh)"
+export _ZO_FUZZY=0
+
+#Starship命令提示符
+eval "$(starship init zsh)"
 
 #登陆自启动X
 [ -z $DISPLAY ] && [ $(tty) = "/dev/tty1" ] && startx

@@ -168,14 +168,14 @@ keys = [
     #全屏窗口
     Key([mod], "f", lazy.window.toggle_fullscreen()),
     
-    Key([mod], "h", 
+    Key([mod], "x", 
         lazy.window.toggle_minimize(), 
         lazy.layout.next(),
         desc="最小化窗口"
         ),
     
     #恢复最小化窗口
-    Key([mod, "shift"], "h", minimize),
+    Key([mod, "shift"], "x", minimize),
     
     #浮动窗口置顶
     Key([mod], "a", float_to_front),
