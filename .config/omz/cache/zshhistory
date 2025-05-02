@@ -2068,3 +2068,25 @@ docker run -d \\
 : 1746029920:0;v starship.toml
 : 1746030548:0;gs
 : 1746030562:0;gam 2
+: 1746030569:0;gpo
+: 1746030625:0;vim starship.toml
+: 1746030680:0;v starship.toml
+: 1746031147:0;kitten themes
+: 1746031341:0;v kitty/kitty.conf
+: 1746031439:0;cd .
+: 1746031452:0;v starship.toml
+: 1746031757:0;poweroff
+: 1746094703:0;sudo pacman -Syyu --noconfirm && yay --noconfirm
+: 1746103240:0;z d
+: 1746103242:0;l
+: 1746103251:0;z con
+: 1746103254:0;ls
+: 1746103411:0;z
+: 1746103430:0;cd wallpaper
+: 1746103490:0;z d
+: 1746103503:0;cd .config/omz
+: 1746103505:0;y
+: 1746103581:0;cd
+: 1746103588:0;vim .zshrc
+: 1746103810:0;source ~/.zshrc
+: 1746103819:0;reboot

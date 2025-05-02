@@ -4,10 +4,11 @@
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 #zsh的omz配置
-source ~/dotfiles/.config/omz/omz.zsh  
-export _OMZ_APPLY_PREEXEC_HOOK=true
-export _OMZ_APPLY_CHPWD_HOOK=true
-export _OMZ_APPLY_HISTORYBYFZF=true
+#source ~/dotfiles/.config/omz/omz.zsh  
+#export _OMZ_APPLY_PREEXEC_HOOK=true
+#export _OMZ_APPLY_CHPWD_HOOK=true
+#export _OMZ_APPLY_HISTORYBYFZF=true
+source ~/dotfiles/.zsh/config.zsh
 
 #指定使用nvim
 export EDITOR=nvim
@@ -51,5 +52,5 @@ function y() {
 }
 
 #别称
-alias dotfiles='cd ~/dotfiles && stow -t ~ . --adopt --ignore="\.git|README\.md"'
+alias dotfiles='cd ~/dotfiles && stow -t ~ . --adopt --ignore="\.git|README\.md" --ignore="^wallpaper/" --ignore="^.zsh/"'
 alias v='nvim'

@@ -14,7 +14,7 @@ picom --config ~/.config/picom.conf  >> /dev/null 2>&1 & #picom
 stalonetray  --max-geometry 1x1 --icon-gravity NE  --background '#282828' --window-layer top --geometry 8x1+1885+4 &
 clash-verge &
 sleep 1
-feh --bg-fill --randomize ~/wallpaper/* &  #壁纸
+feh --bg-fill --randomize ~/dotfiles/wallpaper/* &  #壁纸
 numlockx &                 #在启动时激活 numlock
 sleep 1
 rfkill unblock bluetooth
