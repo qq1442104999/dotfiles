@@ -39,3 +39,15 @@
 : 1746201677:0;cd ..
 : 1746201697:0;source config.zsh
 : 1746201727:0;gam 1
+: 1746201809:0;gpo
+: 1746201935:0;gll
+: 1746201946:0;gs
+: 1746202021:0;ls
+: 1746202071:0;mkdir plugins
+: 1746202550:0;mv zsh-autosuggestions zsh-completions zsh-syntax-highlighting ./plugins
+: 1746202551:0;ls
+: 1746202576:0;mv fzf-tab ./plugins
+: 1746202577:0;ls
+: 1746202793:0;reboot
+: 1746202869:0;z zsh
+: 1746202881:0;code config.zsh

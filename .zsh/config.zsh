@@ -1,15 +1,15 @@
 # 1. 设置补全路径（必须在 compinit 之前）
-fpath=(~/dotfiles/.zsh/zsh-completions/src $fpath)
+fpath=(~/dotfiles/.zsh/plugins/zsh-completions/src $fpath)
 
 # 2. 初始化补全系统
 autoload -Uz compinit && compinit
 
 # 3. 加载 fzf-tab（在 compinit 之后，但在其他插件之前）
-source ~/dotfiles/.zsh/fzf-tab/fzf-tab.plugin.zsh
+source ~/dotfiles/.zsh/plugins/fzf-tab/fzf-tab.plugin.zsh
 
 # 4. 加载其他插件（自动建议、语法高亮等）
-source ~/dotfiles/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/dotfiles/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/dotfiles/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/dotfiles/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 ZSH_CACHE_DIR="$HOME/dotfiles/.zsh/cache"
 SHORT_HOST=${HOST/.*/}
