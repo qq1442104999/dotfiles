@@ -69,3 +69,4 @@ fi
 alias grep="grep $GREP_OPTIONS"
 
 source ~/dotfiles/.zsh/config/git.zsh
+source ~/dotfiles/.zsh/config/hook.zsh

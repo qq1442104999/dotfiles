@@ -9,6 +9,8 @@
 #export _OMZ_APPLY_CHPWD_HOOK=true
 #export _OMZ_APPLY_HISTORYBYFZF=true
 source ~/dotfiles/.zsh/config.zsh
+_apply_chpwd_hook
+_apply_preexec_hook
 
 #指定使用nvim
 export EDITOR=nvim
@@ -51,6 +53,6 @@ function y() {
 	rm -f -- "$tmp"
 }
 
-#别称
+#别名
 alias dotfiles='cd ~/dotfiles && stow -t ~ . --adopt --ignore="\.git|README\.md" --ignore="^wallpaper/" --ignore="^.zsh/"'
 alias v='nvim'

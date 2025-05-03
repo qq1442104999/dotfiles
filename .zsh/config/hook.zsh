@@ -6,8 +6,8 @@ _apply_preexec_hook() {
 
 # auto to last pwd
 _apply_chpwd_hook() {
-    chpwd_hook() { echo $PWD > $OMZ/cache/currentdir }
+    chpwd_hook() { echo $PWD > $HOME/dotfiles/.zsh/cache/currentdir }
     add-zsh-hook -Uz chpwd chpwd_hook
-    currentdir=$(cat $OMZ/cache/currentdir 2>/dev/null)
+    currentdir=$(cat $HOME/dotfiles/.zsh/cache/currentdir 2>/dev/null)
     [ -d "$currentdir" ] && cd $currentdir
 }
