@@ -10,7 +10,9 @@ source ~/dotfiles/.zsh/plugins/fzf-tab/fzf-tab.plugin.zsh
 # 4. 加载其他插件（自动建议、语法高亮等）
 source ~/dotfiles/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/dotfiles/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/dotfiles/.zsh/plugins/Extract/extract.sh
 
+#-----------------------------------------------------
 ZSH_CACHE_DIR="$HOME/dotfiles/.zsh/cache"
 SHORT_HOST=${HOST/.*/}
 autoload -Uz add-zsh-hook

@@ -184,3 +184,98 @@
 : 1746278250:0;gs
 : 1746278263:0;z d
 : 1746278271:0;gam 2
+: 1746278277:0;gpo
+: 1746279114:0;z z
+: 1746279119:0;cd plugins
+: 1746279120:0;ls
+: 1746279137:0;git clone https://github.com/xvoland/Extract.git
+: 1746279145:0;ls
+: 1746279150:0;cd Extract
+: 1746279163:0;rm -d .git
+: 1746279177:0;rm  .git
+: 1746279185:0;rm  -r .git
+: 1746279189:0;rm  -rf .git
+: 1746279194:0;ls
+: 1746279195:0;y
+: 1746279376:0;z d
+: 1746279384:0;source .zshrc
+: 0:0;
+: 0:0;
+: 1746280036:0;exa 
+: 1746280118:0;exa -l -a --icons --git -h
+: 1746280144:0;exa -l -a --icons -h
+: 1746280156:0;exa -l -a --icons --git -h
+: 1746280171:0;exa -l -a --icons -h
+: 1746280197:0;exa -la
+: 1746280207:0;exa -l -a  -h
+: 1746280212:0;exa -l -a --icons
+: 1746280416:0;source .zshrc
+: 1746280422:0;l
+: 1746280447:0;source .zshrc
+: 1746280451:0;l
+: 1746280511:0;source .zshrc
+: 1746280513:0;l
+: 1746281364:0;source .zshrc
+: 1746281367:0;l
+: 1746281976:0;code
+: 1746282013:0;code ~/dotfiles
+: 1746282046:0;source .zshrc
+: 1746282048:0;l
+: 1746282364:0;cd wallpaper
+: 1746282396:0;code ~/dotfiles
+: 1746282974:0;kitten themes
+: 1746283378:0;sudo pacman -Syyu
+: 1746283649:0;l
+: 1746284337:0;yay
+: 1746284351:0;sudo pacman -Syyu
+: 1746284656:0;cd
+: 1746285269:0;builtin cd -- /home/wang/dotfiles
+: 1746285513:0;cd
+: 1746285528:0;bat .fzf.zsh
+: 1746285557:0;sudo pacman -S fzf
+: 1746542792:0;fzf --height 40% --layout reverse --info inline --border \\
+    --preview 'file {}' --preview-window up,1,border-horizontal \\
+    --bind 'ctrl-/:change-preview-window(50%|hidden|)' \\
+    --color 'fg:#bbccdd,fg+:#ddeeff,bg:#334455,preview-bg:#223344,border:#778899'
+: 1746542919:0;fzf --preview 'bat --color=always {}' --preview-window '~3'
+: 1746542969:0;fzf --height 12 --preview 'bat --color=always {}' --preview-window '~3'
+: 1746543005:0;fzf --height 12 --preview 'bat --color=always {}' --preview-window '~3' --scrollbar=âƒ¶ƒ¬âƒ¶ƒ°
+: 1746543028:0;fzf --height 12 --scrollbar=âƒ¶ƒ¬âƒ¶ƒ° --preview 'bat --color=always {}' --preview-window '~3'
+: 1746543080:0;fzf --height 12 --scrollbar=âƒ¶ƒ¬âƒ¶ƒ° --info=inline-right --preview 'bat --color=always {}' --preview-window '~3'
+: 1746543105:0;: | rg_prefix='rg --column --line-number --no-heading --color=always --smart-case' \\
+    fzf --bind 'start:reload:$rg_prefix ""' \\
+        --bind 'change:reload:$rg_prefix {q} || true' \\
+        --bind 'enter:become(vim {1} +{2})' \\
+        --ansi --disabled \\
+        --height=50% --layout=reverse
+: 1746543246:0;z z
+: 1746543258:0;y
+: 1746543271:0;git clone https://github.com/Freed-Wu/fzf-tab-source.git
+: 1746543280:0;l
+: 1746543294:0;cd fzf-tab-source
+: 1746543304:0;rm .git
+: 1746543311:0;rm -r .git
+: 1746543318:0;rm -rf .git
+: 1746543320:0;l
+: 1746543370:0;pwd
+: 1746543517:0;z ..
+: 1746543523:0;..
+: 1746543531:0;l
+: 1746543538:0;cd
+: 1746543540:0;~
+: 1746543546:0;source .zshrc
+: 1746543735:0;z q
+: 1746543782:0;~
+: 1746543789:0;l
+: 1746543810:0;cd dotfiles/wallpaper
+: 1746543879:0;cd
+: 1746543883:0;source .zshrc
+: 1746543889:0;kill
+: 1746544316:0;reboot
+: 1746544462:0;code ~/dotfiles
+: 1746544514:0;gam 
+: 1746544526:0;z d
+: 1746544531:0;gam
+: 1746544543:0;gpo
+: 1746544560:0;gs
+: 1746544565:0;gam 1
