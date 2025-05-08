@@ -3,7 +3,6 @@ export FZF_DEFAULT_OPTS="--height 12 --scrollbar=▌▐ --info=inline-right --la
 export FZF_DEFAULT_COMMAND="fd --exclude={.git,.idea,.vscode,.sass-cache,node_modules,build,dist,vendor} --type f --hidden"
 export FZF_PREVIEW_COMMAND='bash $HOME/dotfiles/.zsh/lib/file_preview.sh {}'
 #export FZF_CTRL_T_OPTS="--preview '$HOME/dotfiles/.zsh/lib/file_preview.sh {}'"
-#export FZF_CTRL_R_OPTS="--preview 'echo {}'"
 
 zstyle ':completion:complete:*:options' sort false
 zstyle ':fzf-tab:complete:_zlua:*' query-string input
