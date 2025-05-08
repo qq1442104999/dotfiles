@@ -58,6 +58,6 @@ function y() {
 }
 
 #别名
-alias dotfiles='cd ~/dotfiles && stow -t ~ . --adopt --ignore="\.git|README\.md" --ignore="wallpaper/" --ignore="\.zsh/"'
+alias dotfiles='cd ~/dotfiles && stow -t ~ . --adopt --ignore="(^\.git$|^README\.md$|^wallpaper$|^\.zsh$)"'
 alias v='nvim'
 alias l='exa -l -a --icons --group-directories-first'
