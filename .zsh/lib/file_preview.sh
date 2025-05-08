@@ -11,7 +11,7 @@ elif [ "$category" = image ]; then
     if [ -x "$fzf_preview_script" ]; then
         "$fzf_preview_script" "$1" && exit 0
     fi
-    #if command -v ueberzug 2&>/dev/null && bash $OMZ/lib/img_preview.sh "$1"|| img2txt "$1"
+    echo "Image file detected, but fzf-preview.sh failed or not found"
 else 
     echo $1 is a $category file
     (bat -p --color=always "$1" || cat "$1") 2>/dev/null | head -1000

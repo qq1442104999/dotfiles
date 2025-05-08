@@ -199,8 +199,8 @@
 : 1746279195:0;y
 : 1746279376:0;z d
 : 1746279384:0;source .zshrc
-: 0:0;
-: 0:0;
+: 1746711337:0;
+: 1746711337:0;
 : 1746280036:0;exa 
 : 1746280118:0;exa -l -a --icons --git -h
 : 1746280144:0;exa -l -a --icons -h
@@ -444,3 +444,131 @@ which lessfilter\
 : 1746635410:0;z z
 : 1746699808:0;z d
 : 1746699818:0;gam 0
+: 1746699823:0;gpo
+: 1746699836:0;sudo pacman -Syyu && yay
+: 1746701948:0;z d
+: 1746701952:0;z wall
+: 1746702228:0;source .zshrc
+: 1746702470:0;rm 22.png
+: 1746704726:0;z d
+: 1746704743:0;source ~/dotfiles/.zshrc
+: 1746704762:0;z wall
+: 1746704764:0;ls 
+: 1746704905:0;~
+: 1746704932:0;z wwall
+: 1746704936:0;z wall
+: 1746705066:0;kitten themes
+: 1746705386:0;source ~/dotfiles/.zshrc
+: 1746705427:0;~
+: 1746705481:0;l --tree
+: 1746705525:0;reboot
+: 1746705765:0;bat -p --color=always .bash_history 
+: 1746705816:0;bat --color=always .bash_history 
+: 1746706385:0;tmux
+: 1746706415:0;z wall
+: 1746706451:0;ls | ftb-tmux-popup
+: 1746706734:0;cd
+: 1746706737:0;ls | ftb-tmux-popup
+: 1746707281:0;ls | fzf
+: 1746707290:0;fzf
+: 1746707331:0;cd | fzf
+: 1746707391:0;fd | fzf
+: 1746707435:0;cd
+: 1746707441:0;fzf .
+: 1746707443:0;fzf
+: 1746707988:0;source ~/dotfiles/.zshrc
+: 1746708510:0;kill 
+: 1746708706:0;source ~/dotfiles/.zshrc
+: 1746708928:0;reboot
+: 1746709030:0;kill 
+: 1746709080:0;reboot
+: 1746709750:0;source ~/dotfiles/.zshrc
+: 1746710181:0;y
+: 1746710363:0;source ~/dotfiles/.zshrc
+: 1746710372:0;y
+: 1746710488:0;fzf
+: 1746710535:0;y
+: 1746710599:0;source ~/dotfiles/.zshrc
+: 1746710604:0;yt
+: 1746710605:0;y
+: 1746710618:0;fzf
+: 1746710686:0;source ~/dotfiles/.zshrc
+: 1746710688:0;fzf
+: 1746710731:0;y
+: 1746710841:0;l
+: 1746710850:0;rm -rf wallpaper
+: 1746710853:0;y
+: 1746710871:0;z wall
+: 1746710874:0;y
+: 1746711005:0;source ~/dotfiles/.zshrc
+: 1746711010:0;y
+: 1746711337:0;reboot
+: 1746711561:0;source ~/dotfiles/.zshrc
+: 1746711831:0;ls
+: 1746711865:0;cd Downloads
+: 1746711897:0;l
+: 1746711909:0;cd Telegram\ Desktop
+: 1746711910:0;l
+: 1746711913:0;ls
+: 1746711925:0;~
+: 1746712029:0;source ~/dotfiles/.zshrc
+: 1746712346:0;
+: 1746712161:0;source ~/dotfiles/.zshrc
+: 1746712163:0;ls
+: 1746712346:0;reboot
+: 1746712462:0;source ~/dotfiles/.zshrc
+: 1746712815:0;source ~/dotfiles/.zshrc\ 
+: 1746712817:0;source ~/dotfiles/.zshrc
+: 1746712836:0;ls config.json Desktop
+: 1746712926:0;source ~/dotfiles/.zshrc
+: 1746712987:0;z wall
+: 1746713204:0;source ~/dotfiles/.zshrc
+: 1746714189:0;fzf
+: 1746714198:0;y
+: 1746714298:0;fzf
+: 1746714629:0;echo $HISTFILE
+: 1746714877:0;fc -l\
+
+: 1746715201:0;y
+: 1746715364:0;source ~/dotfiles/.zshrc
+: 1746715445:0;cp zshhistory ~/.zsh_history
+: 1746715447:0;cd
+: 1746715449:0;l
+: 1746715483:0;bat .zsh_history
+sou
+: 1746715492:0;source ~/dotfiles/.zshrc
+: 1746715520:0;[Cfc -l
+: 1746715524:0;fc -l
+: 1746715607:0;source ~/dotfiles/.zshrc
+: 1746715673:0;y
+: 1746715732:0;source ~/dotfiles/.zshrc
+: 1746715801:0;fc -l
+: 1746715817:0;source ~/dotfiles/.zshrc
+: 1746715827:0;fc -l
+: 1746715956:0;history -a   # æƒªƒªå½ƒ³åƒ©ƒ­ä¼ƒºè¯ƒ½åƒ®ƒ¦åƒ¯²åƒ¦ƒ¹åƒ¥¥ HISTFILE\
+history -n   # ä»ƒ® HISTFILE è¯»åƒ¯ƒ¶æƒ¶°åƒ®ƒ¦åƒ¯²\
+.
+: 1746715983:0;history -a  
+: 1746715994:0;history -n
+: 1746716005:0;fc -l
+: 1746716023:0;history -a
+: 1746716086:0;y
+: 1746716199:0;cp .zsh_history ~/
+: 1746716202:0;cd
+: 1746716210:0;ls .zsh_history
+: 1746716215:0;fc -l0
+: 1746716218:0;fc -l
+: 1746716226:0;reboot
+: 1746716303:0;fc -l
+: 1746716446:0;fc -l -50
+: 1746716530:0;fc -l 1
+: 1746716629:0;source ~/dotfiles/.zshrc
+: 1746717068:0;l
+: 1746717084:0;rm .zsh_history
+: 1746717110:0;dotfiles
+: 1746717116:0;cd
+: 1746717117:0;y
+: 1746717669:0;source .zshrc
+: 1746718024:0;source ~/dotfiles/.zshrc
+: 1746719061:0;z d
+: 1746719067:0;gam 1
