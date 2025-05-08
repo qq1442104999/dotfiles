@@ -11,6 +11,7 @@ source ~/dotfiles/.zsh/plugins/fzf-tab/fzf-tab.plugin.zsh
 source ~/dotfiles/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/dotfiles/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/dotfiles/.zsh/plugins/Extract/extract.sh
+source ~/dotfiles/.zsh/plugins/fzf-tab-source/*.plugin.zsh
 
 #-----------------------------------------------------
 ZSH_CACHE_DIR="$HOME/dotfiles/.zsh/cache"
@@ -72,3 +73,4 @@ alias grep="grep $GREP_OPTIONS"
 
 source ~/dotfiles/.zsh/config/git.zsh
 source ~/dotfiles/.zsh/config/hook.zsh
+source ~/dotfiles/.zsh/config/fzf.zsh

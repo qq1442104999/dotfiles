@@ -279,3 +279,168 @@
 : 1746544543:0;gpo
 : 1746544560:0;gs
 : 1746544565:0;gam 1
+: 1746544568:0;gpo
+: 1746544925:0;source .zshrc
+: 1746545080:0;cd
+: 1746546304:0;echo $LESSOPEN\
+
+: 1746546369:0;which lesspipe\
+which lessfilter\
+
+: 1746546410:0;less .zshrc
+: 1746546922:0;z dotfiles
+: 1746546926:0;l
+: 1746546929:0;cd wallpaper
+: 1746546934:0;less 12.png
+: 1746614292:0;y
+: 1746614662:0;cd
+: 1746614730:0;fzf --height 12 --scrollbar=âƒ¶ƒ¬âƒ¶ƒ° --info=inline-right --preview 'bat --color=always {}' --preview-window '~3'
+: 1746614860:0;z d
+: 1746614862:0;y
+: 1746614866:0;l
+: 1746614874:0;cd .zsh
+: 1746614877:0;l
+: 1746614888:0;y
+: 1746616098:0;sudo pacman -S lesspipe
+: 1746616365:0;dotfiles
+: 1746616372:0;cd
+: 1746616373:0;y
+: 1746616489:0;dotfiles
+: 1746616491:0;y
+: 1746616506:0;cd
+: 1746616507:0;y
+: 1746616554:0;cd dotfiles
+: 1746616556:0;tree
+: 1746616570:0;l
+: 1746616917:0;cd
+: 1746616918:0;y
+: 1746616963:0;dotfiles
+: 1746616966:0;cd
+: 1746616966:0;y
+: 1746616982:0;z d
+: 1746616989:0;source .zshrc
+: 1746617018:0;sudo pacman -S lesspipe
+: 1746617031:0;source .zshrc
+: 1746617087:0;which lesspipe
+: 1746617090:0;which lesspipe.sh
+: 1746617232:0;source .zshrc
+: 1746617270:0;cd
+: 1746617339:0;z z 
+: 1746617466:0;reboot
+: 1746617543:0;z wa
+: 1746617554:0;less 14.jpg
+: 1746617572:0;z
+: 1746617667:0;z d
+: 1746617961:0;cd
+: 1746617972:0;y
+: 1746618007:0;code ~/dotfiles
+: 1746618117:0;echo $LESSOPEN
+: 1746618163:0;lesspipe.sh
+: 1746618195:0;less dotfiles
+: 1746618293:0;eza dotfiles
+: 1746618765:0;kitten icat ~/dotfiles/wallpaper/12.png
+: 1746618814:0;source .zshrc
+: 1746618821:0;z wallpaper
+: 1746618875:0;tree 10.jpg
+: 1746619020:0;cd
+: 1746619021:0;y
+: 1746619109:0;bat /usr/bin/lesspipe.sh
+: 1746619327:0;chmod +x ~/.lessfilter
+: 1746619333:0;l
+: 1746619349:0;z wallpaper
+: 1746619398:0;z
+: 1746619436:0;z wall
+: 1746619518:0;less 10.jpg
+: 1746619535:0;less 12.png
+: 1746619553:0;ls 1.png
+: 1746619898:0;z 
+: 1746619986:0;sudo pacman -S chafa
+: 1746619992:0;z d
+: 1746619998:0;source .zshrc
+: 1746620001:0;z w
+: 1746620037:0;sudo pacman -Rns chafa
+: 1746620167:0;z d
+: 1746620174:0;source .zshrc
+: 1746620179:0;z wallpaper
+: 1746620360:0;less 10.jpg
+: 1746620393:0;less 1.png
+: 1746620420:0;ls 10.jpg
+: 1746620439:0;z d
+: 1746620442:0;sou0
+: 1746620446:0;source .zshrc
+: 1746620458:0;z wallpaper
+: 1746620474:0;y
+: 1746620868:0;stty 
+: 1746620942:0;z 
+: 1746620949:0;dotfiles
+: 1746620954:0;source .zshrc
+: 1746620961:0;z wallpaper
+: 1746621670:0;z d
+: 1746621673:0;source .zshrc
+: 1746621678:0;z wall
+: 1746621802:0;z d
+: 1746621804:0;source .zshrc
+: 1746621808:0;z wall
+: 1746622227:0;z q
+: 1746622230:0;z d
+: 1746622232:0;source .zshrc
+: 1746622237:0;z w
+: 1746622353:0;z d
+: 1746622355:0;source .zshrc
+: 1746622371:0;z w
+: 1746622536:0;z d
+: 1746622538:0;source .zshrc
+: 1746622541:0;z wallpaper
+: 1746622866:0;ls
+: 1746624205:0;~
+: 1746624217:0;sudo pacman -Syyu && yay
+: 1746630491:0;z wa
+: 1746630497:0;less 11.jpg
+: 1746630567:0;z d
+: 1746630576:0;z z 
+: 1746631090:0;cd
+: 1746631097:0;source .zshrc
+: 1746631176:0;z w
+: 1746631179:0;l
+: 1746631196:0;z
+: 1746631333:0;cd dotfiles/.config/omz/lib
+: 1746631368:0;cp file_preview.sh  ~/dotfiles/.zsh/config
+: 1746631633:0;cd .zsh/config/
+: 1746631650:0;z con
+: 1746631693:0;z ~/dotfiles/.zsh
+: 1746631700:0;mkdir lib
+: 1746631747:0;mv config/file_preview.sh lib
+: 1746631756:0;cd lib
+: 1746631759:0;l
+: 1746631801:0;touch fzf-preview.sh
+: 1746633092:0;z d
+: 1746633100:0;source .zshrc
+: 1746633212:0;z z
+: 1746633214:0;l
+: 1746633217:0;cd lib
+: 1746633218:0;l
+: 1746633252:0;chmod +x fzf-preview.sh 
+: 1746633253:0;l
+: 1746633263:0;z d
+: 1746633275:0;source .zshrc
+: 1746633306:0;z wallpaper
+: 1746633428:0;z d
+: 1746633444:0;source .zshrc
+: 1746634124:0;cd wallpaper
+: 1746634298:0;cd
+: 1746634306:0;builtin cd -- /home/wang/.zsh/lib
+: 1746634310:0;lcd
+: 1746634311:0;cd
+: 1746634402:0;builtin cd -- /home/wang/.zsh/cache
+: 1746634552:0;cd
+: 1746634561:0;z d
+: 1746634567:0;source .zshrc
+: 1746634576:0;builtin cd -- /home/wang/dotfiles/wallpaper
+: 1746634692:0;z d
+: 1746634695:0;source .zshrc
+: 1746634836:0;l
+: 1746635108:0;source .zshrc
+: 1746635164:0;builtin cd -- /home/wang/dotfiles/.config/kitty
+: 1746635410:0;z z
+: 1746699808:0;z d
+: 1746699818:0;gam 0

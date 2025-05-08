@@ -11,6 +11,7 @@
 source ~/dotfiles/.zsh/config.zsh
 _apply_chpwd_hook
 _apply_preexec_hook
+_apply_historybyfzf
 
 #指定使用nvim
 export EDITOR=nvim
@@ -40,6 +41,9 @@ export _ZO_FUZZY=0
 #Starship命令提示符
 eval "$(starship init zsh)"
 
+#增强 less 命令的功能
+eval "$(lesspipe.sh)"
+
 #登陆自启动X
 [ -z $DISPLAY ] && [ $(tty) = "/dev/tty1" ] && startx
 
@@ -54,6 +58,6 @@ function y() {
 }
 
 #别名
-alias dotfiles='cd ~/dotfiles && stow -t ~ . --adopt --ignore="\.git|README\.md" --ignore="^wallpaper/" --ignore="^.zsh/"'
+alias dotfiles='cd ~/dotfiles && stow -t ~ . --adopt --ignore="\.git|README\.md" --ignore="wallpaper/" --ignore="\.zsh/"'
 alias v='nvim'
 alias l='exa -l -a --icons --group-directories-first'
