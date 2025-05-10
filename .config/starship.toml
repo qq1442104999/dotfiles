@@ -6,10 +6,6 @@ $directory\
 $git_branch\
 $git_status\
 [](fg:#394260 bg:#212736)\
-$nodejs\
-$rust\
-$golang\
-$php\
 [](fg:#212736 bg:#1d2230)\
 $time\
 [ ](fg:#1d2230)\
@@ -20,8 +16,8 @@ add_newline = false
 [directory]
 style = "fg:#e3e5e5 bg:#769ff0"
 format = "[ $path ]($style)"
-truncation_length = 3
-truncation_symbol = "…/"
+truncation_length = 0
+truncate_to_repo = false
 
 [directory.substitutions]
 "Documents" = "󰈙 "
