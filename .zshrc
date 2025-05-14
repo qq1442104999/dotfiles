@@ -25,7 +25,7 @@ export GLFW_IM_MODULE=ibus
 
 #QT主题
 export QT_QPA_PLATFORMTHEME=qt6ct
-# export QT_QPA_PLATFORMTHEME=qt5ct
+export QT_QPA_PLATFORMTHEME=qt5ct
 
 #GTK主题
 export GTK_THEME=Breeze-Dark
